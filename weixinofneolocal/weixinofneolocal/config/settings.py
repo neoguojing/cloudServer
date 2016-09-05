@@ -62,7 +62,7 @@ elif ENV == "VM":
             # The following settings are not used with sqlite3:
             'USER': 'root',
             'PASSWORD': '805118680',
-            'HOST': '192.168.1.11',  # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
+            'HOST': '10.105.101.58',  # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
             'PORT': '',  # Set to empty string for default.
         }
     }
