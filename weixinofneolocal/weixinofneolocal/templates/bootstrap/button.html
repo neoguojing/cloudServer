@@ -1,0 +1,15 @@
+{% extends "root.html" %}
+
+{% block neo_title %}button{% endblock %}
+
+{% block neo_content %}
+<p>
+<button type="button" class="btn btn-primary btn-lg">Primary</button>
+<a href="#" class="btn btn-danger btn-lg active" role="button">Link button</a>
+<button type="button" class="btn btn-sm btn-info" disabled="disabled">Primary button</button>
+</p>
+<p>
+<input class="btn btn-success" type="button" value="Input">
+<input class="btn btn-link" type="submit" value="Submit">
+</p>
+{% endblock %}

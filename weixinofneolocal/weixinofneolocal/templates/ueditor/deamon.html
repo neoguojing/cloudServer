@@ -1,0 +1,29 @@
+    <span style="color: #800000;">{% load static %}  
+    {% get_static_prefix as STATIC_PREFIX %}</span>  
+
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ueditor demo</title>
+    <script type="text/javascript" charset="utf-8">
+        window.UEDITOR_HOME_URL = "{{STATIC_URL}}";
+    </script>
+    <script type="text/javascript" charset="utf-8" src="{{STATIC_URL}}ueditor/editor_config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="{{STATIC_URL}}ueditor/editor_all_min.js"></script>
+    <link rel="stylesheet" type="text/css" href="{{STATIC_URL}}ueditor/themes/default/ueditor.css"/>    
+</head>
+
+<body>
+    <!-- 加载编辑器的容器 -->
+    <p>hello wworld</p>
+    <textarea id="content" name="content" style="width:575px;line-height:18px;"></textarea> 
+    
+    <script>
+        var ue=new UE.ui.Editor();
+        ue.render('content');
+    </script>
+</body>
+
+</html>

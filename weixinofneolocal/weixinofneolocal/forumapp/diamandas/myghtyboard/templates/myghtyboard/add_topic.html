@@ -1,0 +1,132 @@
+{% extends "body.html" %}
+{% load i18n %}
+{% block neo_meta %}
+<link rel="stylesheet" href="{{STATIC_URL}}forum/static/forum.css" type="text/css" />
+{{ block.super }}
+{% endblock %}
+
+{% block neo_crumb %}
+<a href="/app/">{% trans "Home" %}</a> > <a href="{% url 'forumapp.diamandas.myghtyboard.views.category_list' %}">{% trans "Forum Index" %}</a> > 
+<a href="{% url 'forumapp.diamandas.myghtyboard.views.topic_list' forum.id %}">{{ forum.name }}</a>
+{% endblock %}
+
+{% block neo_script %}
+<script src="{{STATIC_URL}}bootstrap3/js/jquery-1.11.1.min.js"></script>
+
+<!--jquary+ajax-->
+ <script type="text/javascript" charset="utf-8">
+  function calcuteVertifyCode(){
+      $.post("{% url 'app.ajax.calcuteVertifyCode'%}", function(ret) {  
+          //alert("Data: " + ret);
+          // $("#vertify").html("<img id='verticode' class='img-responsive' src='this.src=ret' width='145' height='30' alt='CAPTCHA' border='1' onclick= 'calcuteVertifyCode()' style='cursor: pointer;' title='看不清？点击更换另一个验证码' />");
+          //$('#verticode').attr("src",ret);   
+          document.getElementById("verticode").src=ret;
+      });  
+}
+     
+     
+ $('html').ajaxSend(function(event, xhr, settings) {  
+        function getCookie(name) {  
+            var cookieValue = null;  
+            if (document.cookie && document.cookie != '') {  
+                var cookies = document.cookie.split(';');  
+                for (var i = 0; i < cookies.length; i++) {  
+                    var cookie = jQuery.trim(cookies[i]);  
+                    // Does this cookie string begin with the name we want?  
+                    if (cookie.substring(0, name.length + 1) == (name + '=')) {  
+                       cookieValue = decodeURIComponent(cookie.substring(name.length + 1));  
+                       break;  
+                   }  
+               }  
+           }  
+           return cookieValue;  
+       }  
+       if (!(/^http:.*/.test(settings.url) || /^https:.*/.test(settings.url))) {  
+           // Only send the token to relative URLs i.e. locally.  
+           xhr.setRequestHeader("X-CSRFToken", getCookie('csrftoken'));  
+       }  
+   });  
+</script>
+
+{% endblock %}
+
+{% block neo_title %}{% trans "Add Topic:" %} {{ forum.name }}{% endblock %}
+
+{% block neo_content %}
+<form method="post" action="." class="form-horizontal" role="form">{% csrf_token %}
+<div class="postform">
+    
+    <div class="form-group">
+        <div class="col-sm-2"></div>
+         <div class="col-sm-10">
+            {% trans "Add new topic" %}
+         </div>
+	    </div>
+	
+    <div class="form-group">
+         <label for="inputTitle" class="col-sm-2 control-label">{% trans "Title" %}</label>
+         <div class="col-sm-10">
+            {{ form.name }}{% if form.name.errors %}<br />*** {{ form.name.errors|join:", " }}{% endif %}
+         </div>
+	    </div>
+    
+          {% if pr %}  
+    	
+    <div class="form-group">
+              <label for="inputTitle" class="col-sm-2 control-label">{% trans "Prefixes" %}</label>
+              <div class="col-sm-10">	
+                 {% for i in pr %}
+                    <input type="checkbox" name="prefix[]" value="{{ i.id }}" style="width:auto;" /> {{ i.name }} 
+                 {% endfor %}
+              </div>
+          </div>
+          {% endif %}
+	{% if not user.is_authenticated %}
+   	<div class="form-group">
+            <label for="inputTitle" class="col-sm-2 control-label">{% trans "Nick" %}</label>
+            <div class="col-sm-10">	
+			{{ form.nick }}{% if form.nick.errors %}<br />*** {{ form.nick.errors|join:", " }}{% endif %}
+		   </div>
+		</div>
+	{% endif %}
+    <div class="form-group">
+         <label for="inputTitle" class="col-sm-2 control-label">{% trans "Content" %}</label>
+         <div class="col-sm-10">
+		  <a name="c"></a>
+	      <textarea name="text" rows="3" cols="60" class="form-control">{{ post_text }}</textarea>
+	      <div><b>{% trans "Available Tags" %}</b>: [b], [u], [i], [code]. [python], [php], [url], [img], [quote].<br />
+		{% trans "Use <b>[code] or [python], [php]</b> for code and config text pasting." %}</div>
+		</div>
+	</div>
+        {% if perms.is_staff %}
+     <div class="form-group">
+                <label for="inputTitle" class="col-sm-2 control-label">{% trans "Options" %}</label>
+                <div class="col-sm-10" id="checkboxes">	
+                   {{ form.is_sticky }} {% trans "Sticky" %}{% if form.is_sticky.errors %}<br />*** {{ form.is_sticky.errors|join:", " }}{% endif %}
+                   {{ form.is_global }} {% trans "Global" %}{% if form.is_global.errors %}<br />*** {{ form.is_global.errors|join:", " }}{% endif %}
+            	</div>
+            </div>
+        {% endif %}
+	{% if form.recaptcha %}
+    
+    <div class="form-group">
+          <div class="col-sm-2"></div>
+	     <div class="col-sm-2" id='vertify'>
+    <img id='verticode' class="img-responsive" src="{{ captcha }}" width="145" height="30" alt="CAPTCHA" border="1" onclick= "calcuteVertifyCode()" style="cursor: pointer;" title="看不清？点击更换另一个验证码" />
+       </div>
+          <div class="col-sm-8">	
+		  		{{ form.recaptcha }}{% if form.recaptcha.errors %}<div class="errmsg">{{ form.recaptcha.errors|join:", " }}</div>{% endif %}
+	  		</div>
+	  </div>
+	{% endif %}
+    
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">	
+                <input type="submit" value="{% trans "Add Topic" %}" class="submit btn btn-default" />
+		</div>
+	</div>
+    
+    </div>
+
+</form>
+{% endblock %}

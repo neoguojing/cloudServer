@@ -1,0 +1,57 @@
+{% extends "root.html" %}
+{% load i18n %}
+
+{% block neo_header %}
+
+    
+<nav class="navbar navbar-inverse" role="navigation">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+      <a class="navbar-brand" href="{{ menu }}">
+        <img alt="Brand" src="{{ brand }}">
+      </a>
+  </div>
+
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav">
+        <li class="active"><a href="{{ menu }}">{% trans "Home" %}</a></li>
+        <li class="dropdown">
+        <a href="{{ menu1 }}" class="dropdown-toggle" data-toggle="dropdown">{{ menu1_title }}<b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li><a href="{{ menu1_1 }}">{{ menu1_title_1 }}</a></li>
+          <li><a href="{{ menu1_2 }}">{{ menu1_title_2 }}</a></li>
+        </ul>
+      </li>
+        <li><a href="{{ menu2 }}">{{ menu2_title }}</a></li>
+      <li class="dropdown">
+        <a href="{{ menu3 }}" class="dropdown-toggle" data-toggle="dropdown">{{ menu3_title }}<b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li><a href="{{ menu3_1 }}">{{ menu3_title_1 }}</a></li>
+          <li><a href="{{ menu3_2 }}">{{ menu3_title_2 }}</a></li>
+          <li><a href="{{ menu3_3 }}">{{ menu3_title_3 }}</a></li>
+          <li class="divider"></li>
+          <li><a href="{{ menu3_4 }}">{{ menu3_title_4 }}</a></li>
+          <li class="divider"></li>
+          <li><a href="{{ menu3_5 }}">{{ menu3_title_5 }}</a></li>
+        </ul>
+      </li>
+    </ul>
+
+    <form class="navbar-form navbar-right" role="search">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search">
+      </div>
+        <button type="submit" class="btn btn-default">{% trans "Submit" %}</button>
+    </form>
+    
+  </div><!-- /.navbar-collapse -->
+</nav>
+    
+{% endblock %}

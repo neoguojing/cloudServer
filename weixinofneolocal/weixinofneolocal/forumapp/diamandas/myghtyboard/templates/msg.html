@@ -1,0 +1,11 @@
+{% extends "body.html" %}
+{% load i18n %}
+
+{% block neo_meta %}
+<meta http-equiv="refresh" content="2;url={{ redirect_to }}">
+ {{ block.super }}
+{% endblock %}
+
+{% block neo_content %}
+<div class="msg"><p>{{ msg }}</p><p>{% trans "You will be redirected back in 2 seconds." %} <a href="{{ redirect_to }}">{% trans "Click here if you don't want to wait" %}</a></p></div>
+{% endblock %}

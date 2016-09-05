@@ -1,0 +1,134 @@
+{% extends "body.html" %}
+{% load i18n %}
+{% load staticfiles %}
+{% load url from future %}
+
+{% block neo_title %}
+{% trans "Register" %}
+{% endblock %}
+
+
+{% block neo_script %}
+<script src="{{STATIC_URL}}bootstrap3/js/jquery-1.11.1.min.js"></script>
+
+<!--jquary+ajax-->
+ <script type="text/javascript" charset="utf-8">
+  function calculate1(){
+      msg=$("#msg");  
+      a=$('#a').val();  
+      b=$('#b').val();  
+      msg.html("submit...");  
+      $.post("{% url 'app.ajax.multiply1'%}",{'a':a,'b':b}, function(ret) {    
+          	  alert("Data: " + ret);
+              $('#result').attr("value",ret);
+              msg.html("提交成功！");     
+      });  
+}
+ 
+  function calcuteVertifyCode(){
+      $.post("{% url 'app.ajax.calcuteVertifyCode'%}", function(ret) {  
+          //alert("Data: " + ret);
+          // $("#vertify").html("<img id='verticode' class='img-responsive' src='this.src=ret' width='145' height='30' alt='CAPTCHA' border='1' onclick= 'calcuteVertifyCode()' style='cursor: pointer;' title='看不清？点击更换另一个验证码' />");
+          //$('#verticode').attr("src",ret);   
+          document.getElementById("verticode").src=ret;
+      });  
+}
+     
+     
+ $('html').ajaxSend(function(event, xhr, settings) {  
+        function getCookie(name) {  
+            var cookieValue = null;  
+            if (document.cookie && document.cookie != '') {  
+                var cookies = document.cookie.split(';');  
+                for (var i = 0; i < cookies.length; i++) {  
+                    var cookie = jQuery.trim(cookies[i]);  
+                    // Does this cookie string begin with the name we want?  
+                    if (cookie.substring(0, name.length + 1) == (name + '=')) {  
+                       cookieValue = decodeURIComponent(cookie.substring(name.length + 1));  
+                       break;  
+                   }  
+               }  
+           }  
+           return cookieValue;  
+       }  
+       if (!(/^http:.*/.test(settings.url) || /^https:.*/.test(settings.url))) {  
+           // Only send the token to relative URLs i.e. locally.  
+           xhr.setRequestHeader("X-CSRFToken", getCookie('csrftoken'));  
+       }  
+   });  
+</script>
+
+{% endblock %}
+
+{% block neo_content %}
+<br/>
+<form action="." method="post" class="form-horizontal">
+    
+     <div class="form-group">
+    <div class="col-sm-offset-4 col-sm-8">
+        <input type="hidden" value="{{ token }}" name="token" class="btn btn-primary"/>{% csrf_token %}
+    </div>
+  </div>
+    
+    <form method="post" action="/neoforum/user/login/"  class="form-horizontal">{% csrf_token %}
+    <div class="form-group">
+        <label for="inputEmail3" class="col-sm-4 control-label"><h4>{% trans "Register" %}</h4></label>
+    <div class="col-sm-8"></div>
+  </div>
+
+        <div class="form-group">
+    <label for="id_username" class="col-sm-4 control-label">{% trans "Login" %}</label>
+    <div class="col-sm-8"> 
+        {{ form.login }}{% if form.login.errors %}<div class="errmsg">{{ form.login.errors|join:", " }}</div>{% endif %}
+        </div>
+  </div>
+
+          <div class="form-group">
+    <label for="id_username" class="col-sm-4 control-label"> {% trans "Password" %}</label>
+    <div class="col-sm-8"> 
+        {{ form.password1 }}{% if form.password1.errors %}<div class="errmsg">{{ form.password1.errors|join:", " }}</div>{% endif %}
+        </div>
+  </div>
+
+       <div class="form-group">
+    <label for="id_username" class="col-sm-4 control-label"> {% trans "Password Again" %}</label>
+    <div class="col-sm-8"> 
+        {{ form.password2 }}{% if form.password2.errors %}<div class="errmsg">{{ form.password2.errors|join:", " }}</div>{% endif %}
+        </div>
+  </div>
+
+	<div class="form-group">
+    <label for="id_username" class="col-sm-4 control-label"> {% trans "Email" %}</label>
+    <div class="col-sm-8"> 
+        {{ form.email }}{% if form.email.errors %}<div class="errmsg">{{ form.email.errors|join:", " }}</div>{% endif %}
+        </div>
+  </div>
+
+   <div class="form-group">
+       <div class="col-sm-2"></div>
+       <div class="col-sm-1"></div>
+       <div class="col-sm-1" id='vertify'>
+    <img id='verticode' class="img-responsive" src="{{ captcha }}" width="145" height="30" alt="CAPTCHA" border="1" onclick= "calcuteVertifyCode()" style="cursor: pointer;" title="看不清？点击更换另一个验证码" />
+       </div>
+       <div class="col-sm-8">
+           {{ form.recaptcha }}{% if form.recaptcha.errors %}<div class="errmsg">{{ form.recaptcha.errors|join:", " }}</div>{% endif %}
+       </div>
+  </div>
+
+     <div class="form-group">
+    <div class="col-sm-offset-4 col-sm-8">
+        <input type="submit" value="{% trans "Register" %}" class="btn btn-primary"/>
+    </div>
+  </div>        
+
+<!-- 
+ <input type="text" value="5" id="a"> x
+<input type="text" value="6" id="b"> =
+<input type="text" value="" id="result">
+<input type="button" value="Multiply!" onclick="calculate1()">
+-->
+        
+</form>
+{% endblock %}
+{% block neo_crumb %}<a href="/app/">{% trans "Home" %}</a> > <a href="/neoforum/user/">{% trans "User Panel" %}</a>{% endblock %}
+{% block on_user %} id="current"{% endblock %}

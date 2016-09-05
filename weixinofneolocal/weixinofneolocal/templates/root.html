@@ -1,0 +1,43 @@
+{% load i18n %}
+<!DOCTYPE html> 
+<html lang="utf-8"> <head> 
+<meta charset="utf-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+{% block neo_meta %}{% endblock %}
+{% block neo_link %}{% endblock %}
+{% block neo_description %}{% endblock %}
+{% block neo_script %}{% endblock %}
+
+<title>{% block neo_title %}root{% endblock %}</title> 
+<!-- Bootstrap --> 
+<!--<link rel="stylesheet" href="/static/bootstrap3/css/bootstrap.min.css"> 
+<link rel="stylesheet" href="/static/bootstrap3/css/bootstrap-theme.min.css"> 
+<link rel="stylesheet" href="/static/bootstrap3/css/bootstrap.css"> -->
+<link rel="stylesheet" href="{{STATIC_URL}}bootstrap3/css/bootstrap.min.css"> 
+<link rel="stylesheet" href="{{STATIC_URL}}bootstrap3/css/bootstrap-theme.min.css"> 
+<link rel="stylesheet" href="{{STATIC_URL}}bootstrap3/css/bootstrap.css"> 
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries --> 
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// --> 
+<!--[if lt IE 9]> 
+<script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script> 
+<script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script> 
+<![endif]--> 
+</head> 
+<body> 
+ <div class="container">
+{% block neo_header %}{% endblock %}
+<!--{% block neo_crumb %}{% endblock %}-->
+{% block neo_fullmenu %}{% endblock %}
+{% block neo_content %}{% endblock %}
+{% block neo_footer %}{% endblock %}
+
+<!--<script src="/static/bootstrap3/js/jquery-1.11.1.min.js"></script> 
+<script src="/static/bootstrap3/js/bootstrap.min.js"></script> -->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="{{STATIC_URL}}bootstrap3/js/jquery-1.11.1.min.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="{{STATIC_URL}}bootstrap3/js/bootstrap.min.js"></script> 
+ 
+</div>   
+</body> 
+</html>

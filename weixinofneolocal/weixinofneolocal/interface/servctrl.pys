@@ -1,0 +1,73 @@
+# -*- coding: utf-8 -*-
+#coding=utf-8
+"""
+Created on Sat Nov  8 17:02:33 2014
+
+@author: root
+use database to complete business control
+"""
+import string
+
+from interface.models import *
+from interface.xml_api import *
+
+class BasicCtrl():
+    def __init__(self):
+        pass
+    
+    def saveUserInfo(self):
+        pass
+    
+    def getRspText(self, in_key):
+        objdict = TextMsg.objects.filter(key=in_key, isactive=True)
+        if len(objdict)==0:
+            return "There is no this service!"
+        return objdict[0].text
+    
+    def getRspNews(self, in_key):
+        newsdict = News.objects.filter(key=in_key, isactive=True)
+        if len(newsdict)==0:
+            return None
+        #itemdict = newsdict.item_set.all()
+<<<<<<< .mine
+     xx   itemdict = newsdict.item_set.all()
+=======
+        itemdict = ItemOfNews.objects.filter(item=newsdict[0].id)
+>>>>>>> .r153
+        if len(itemdict)==0:
+            return None
+        return itemdict
+    
+    def isUserExist(self, openid):
+        objdict = WeiXinUsers.objects.filter(userid=openid)
+        if len(objdict)==0:
+            return False
+        return True
+    
+    def setUserInfo(self, in_req):
+        if  in_req.get("subscribe") == 1:
+            m_subscrib = True
+        else:
+            m_subscrib = False
+        
+        if  in_req.get("sex") == 1:
+            m_sex = True
+        else:
+            m_sex = False
+        
+        m_gp = WeiXinGroups.objects.filter(gid=1)        
+        
+        m_user = WeiXinUsers(issubscribe=m_subscrib,userid=in_req.get("openid").\
+        encode('utf-8'), nickname=in_req.get("nickname").encode('utf-8'),\
+        sex=m_sex ,city=in_req.get("city").encode('utf-8'), country=in_req.\
+        get("country").encode('utf-8'), province=in_req.get("province").encode('utf-8'),\
+        language=in_req.get("language").encode('utf-8'), headimgurl=in_req.get("headimgurl").\
+        encode('utf-8'), subscribe_time=string.atoi(in_req.get("subscribe_time")),unionid\
+        =in_req.get("unionid").encode('utf-8'))
+        #tianjia wai jian
+        m_user.gid.add(m_gp)
+        m_user.save()
+        
+        
+        
+        

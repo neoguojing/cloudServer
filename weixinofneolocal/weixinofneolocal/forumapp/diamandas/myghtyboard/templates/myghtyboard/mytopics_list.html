@@ -1,0 +1,48 @@
+{% extends "body.html" %}
+{% load i18n %}
+{% block neo_meta %}
+<link rel="stylesheet" href="{{STATIC_URL}}forum/static/forum.css" type="text/css" />
+{{ block.super }}
+{% endblock %}
+
+{% block neo_crumb %}
+<a href="/app/">{% trans "Home" %}</a> > 
+<a href="{% url 'forumapp.diamandas.myghtyboard.views.category_list' %}">{% trans "Forum Index" %}</a>
+{% endblock %}
+
+{% block neo_content %}
+<div class="table-responsive">
+          <table class="table table-hover">
+            <tr>
+              <th style=""></th>
+              <th>{% trans "Topic" %}</th>
+              <th style="">{% trans "Author" %}</th>
+              <th style="">{% trans "Posts" %}</th>
+              <th style="">{% trans "Last Post" %}</th>
+            </tr>
+            {% for topic in topics %}
+            <tr class="">
+           <td>
+            {% if topic.is_locked %}
+                    <img src="{{STATIC_URL}}forum/static/img/forum/lock.png" alt="*" />
+            {% else %}
+                    {% if topic.is_sticky %}
+                            <img src="{{STATIC_URL}}forum/static/img/forum/stick.png" alt="*" />
+                    {% else %}
+                            {% if topic.is_global %}
+                                    <img src="{{STATIC_URL}}forum/static/img/forum/glob.png" alt="*" />
+                            {% else %}
+                                    <img src="{{STATIC_URL}}forum/static/img/forum/normal.png" alt="*" />
+                            {% endif %}
+                    {% endif %}
+            {% endif %}</td>
+                          <td style="text-align:left;"><a href="{% url 'forumapp.diamandas.myghtyboard.views.post_list' topic.last_pagination_page topic.id %}">{{ topic.name }}</a></td>
+                          <td>{{ topic.author }}</td>
+                          <td>{{ topic.posts }}</td>
+                          <td>{{ topic.lastposter }}, {{topic.modification_date|date:"d.m.Y" }}</td>
+            </tr>
+	    {% endfor %}
+          </table>
+          
+</div>
+{% endblock %}

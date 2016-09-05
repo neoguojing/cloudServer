@@ -1,0 +1,35 @@
+{% extends "header.html" %}
+{% load i18n %}
+
+{% block neo_title %}{% trans "app list" %}{% endblock %}
+
+{% block neo_content %}
+
+
+{% for app in applist %}
+
+ <div class="row">
+      <div class="col-md-8"> 
+        <a href="http://{{ ipaddr }}:{{ port }}/{{ app.prefix }}">
+            <p class="lead">
+                www.{{ name }}.com/{{ app.prefix }}
+            </p>
+        </a>
+      </div>
+      <div class=" col-md-4">
+        <a class="btn btn-primary" role="button" data-toggle="collapse" href="#collapse{{ forloop.counter0 }}" aria-expanded="false" aria-controls="collapse{{ forloop.counter0 }}">
+          ReadMe
+        </a>
+            
+      </div>  
+      
+</div>
+<div class="collapse" id="collapse{{ forloop.counter0 }}">
+      <div class="well">
+        ...
+      </div>
+</div> 
+
+{% endfor %}
+
+{% endblock %}

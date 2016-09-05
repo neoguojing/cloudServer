@@ -1,0 +1,60 @@
+{% extends "body.html" %}
+{% load i18n %}
+{% load pyif %}
+
+{% block neo_title %}
+{{ siteName }}
+{% trans "Discussion Forum" %}
+{% endblock %}
+
+{% block neo_meta %}
+<link rel="stylesheet" href="{{STATIC_URL}}forum/static/forum.css" type="text/css" />
+{{ block.super }}
+{% endblock %}
+
+{% block neo_crumb %}
+<ol class="breadcrumb">
+  <li class="active"><a href="/app/">Home</a></li>
+  <li><a href="{% url 'forumapp.diamandas.myghtyboard.views.category_list' %}">{% trans "Forum Index" %}</a></li>
+</ol>
+{% endblock %}
+
+{% block neo_fullmenu %}
+{{ block.super }}
+{% endblock %}
+
+
+{% block neo_content %}
+<div class="table-responsive">
+{% for cat in categories %}
+          <table class="table table-hover">
+            <tr>
+              <th></th>
+              <th><strong>{{ cat.name }}</strong></th>
+              <th ><strong>{% trans "Topics" %}</strong></th>
+              <th ><strong>{% trans "Posts" %}</strong></th>
+              <th><strong>{% trans "Last Post" %}</strong></th>
+            </tr>
+            {% for forum in cat.forums %}
+            <tr class="small">
+              <td>{% pyif user.get_profile.last_visit < forum.modification_date %}
+                    <img src="{{STATIC_URL}}forum/static/img/forum/new.png" alt="*" />
+                    {% else %}
+                    <img src="{{STATIC_URL}}forum/static/img/forum/normal.png" alt="*" />
+                    {% endif %}</td>
+              <td style="text-align:left;">
+                    <a href="{% url 'forumapp.diamandas.myghtyboard.views.topic_list' forum.id %}"><b>{{ forum.name }}</b></a><br />{{ forum.description }}
+              </td>
+              <td>{{ forum.topics }}</td>
+              <td>{{ forum.posts }}</td>
+              <td>{% ifnotequal forum.lastposter None %}{{ forum.lastposter }}, {{ forum.modification_date|date:"Y.m.d G:i" }}<br />{{ forum.lasttopic|safe }}{% else %}{% trans "No topics in this forum" %}{% endifnotequal %}</td>
+            </tr>
+	    {% endfor %}
+          </table>
+<br />
+	{% endfor %}
+
+</div>
+<img src="{{STATIC_URL}}forum/static/img/forum/new.png" alt="*" /> {% trans "New posts" %}<br />
+<img src="{{STATIC_URL}}forum/static/img/forum/normal.png" alt="*" /> {% trans "No new posts" %}
+{% endblock %}

@@ -1,0 +1,321 @@
+{% extends "body.html" %}
+{% load i18n %}
+{% load pyif %}
+{% block neo_meta %}
+<link rel="stylesheet" href="{{STATIC_URL}}forum/static/forum.css" type="text/css" />
+{{ block.super }}
+{% endblock %}
+
+{% block neo_title %}
+{% trans "Topics from" %} "{{ forum.name }}"{% if page %}{% ifnotequal page 1 %} page {{ page }}{% endifnotequal %}{% endif %}
+{% endblock %}
+
+{% block neo_script %}
+<script src="{{STATIC_URL}}bootstrap3/js/jquery-1.11.1.min.js"></script>
+ <script type="text/javascript" charset="utf-8"> 
+  window.capcode = '';
+  function calcuteVertifyCode(){      
+      $.post("{% url 'app.ajax.calcuteVertifyCode'%}", function(data) {  
+          //alert("Data: " + data.pic + data.code);
+          //$('#verticode').attr("src",ret);   
+          document.getElementById("verticode").src=data.pic;
+          window.capcode = data.code;
+      }, "json");  
+}
+  
+ 
+   $(document).ready(function(){  
+    $("#subtopic").click(function(check){  
+        var valcode = $("#id_recaptcha").val();
+        var valcontent = $("textarea").val();
+        var valtitle = $("#id_name").val(); 
+        if(valcode=="" || valcontent=="" || valtitle==""){  
+            alert("请检查标题、内容或验证码！");  
+        	$("#id_name").focus();  
+            check.preventDefault();//此处阻止提交表单  
+        }  
+    });  
+});  
+     
+   $(document).ready(function(){  
+    $("#id_recaptcha").blur(function(){  
+        var valcode = $("#id_recaptcha").val();
+        if (valcode != ""){
+            if(valcode!={{ verticode }} && valcode!= window.capcode){  
+                //alert("验证码错误！" + valcode + {{ verticode }}+ window.capcode);  
+                calcuteVertifyCode();
+                alert("验证码错误！"); 
+                $("#id_recaptcha").val("");  
+                $("#id_recaptcha").focus(); 
+            } 
+        }
+    });  
+}); 
+     
+ $('html').ajaxSend(function(event, xhr, settings) {  
+        function getCookie(name) {  
+            var cookieValue = null;  
+            if (document.cookie && document.cookie != '') {  
+                var cookies = document.cookie.split(';');  
+                for (var i = 0; i < cookies.length; i++) {  
+                    var cookie = jQuery.trim(cookies[i]);  
+                    // Does this cookie string begin with the name we want?  
+                    if (cookie.substring(0, name.length + 1) == (name + '=')) {  
+                       cookieValue = decodeURIComponent(cookie.substring(name.length + 1));  
+                       break;  
+                   }  
+               }  
+           }  
+           return cookieValue;  
+       }  
+       if (!(/^http:.*/.test(settings.url) || /^https:.*/.test(settings.url))) {  
+           // Only send the token to relative URLs i.e. locally.  
+           xhr.setRequestHeader("X-CSRFToken", getCookie('csrftoken'));  
+       }  
+   });  
+</script>
+
+{% endblock %}
+
+{% block neo_crumb %}
+<ol class="breadcrumb">
+  <li class="active"><a href="/app/">Home</a></li>
+   <li><a href="{% url 'forumapp.diamandas.myghtyboard.views.category_list' %}">{% trans "Forum Index" %}</a></li>
+   <li><a href="{% url 'forumapp.diamandas.myghtyboard.views.topic_list' forum.id %}">{{ forum.name }}</a></li>
+</ol>
+{% endblock %}
+
+{% block neo_content %}
+<div class="table-responsive">
+          <table class="table table-hover">
+            <tr>
+              <th style=""></th>
+              <th><strong>{% trans "Topic" %}</strong></th>
+              <th style=""><strong>{% trans "Posts" %}</strong></th>
+              <th style=""><strong>{% trans "Author" %}</strong></th>
+              <th style=""><strong>{% trans "Last Post" %}</strong></th>
+            </tr>
+            {% if pr %}
+                <tr>
+                <td></td>
+                <td>
+                <form action="./" method="post" class="form-inline" role="form">{% csrf_token %}
+                <span class="label label-primary">{% trans "Filter topics" %}:</span>
+                {% for i in pr %}
+                    <div class="checkbox">
+    					<label>
+     						 <input type="checkbox" name="prefix[]" value="{{ i.id }}" style="width:auto;"{% pyif i in prefixes %}checked="checked"{% endif %} /> {{ i.name }}
+    					</label>
+  				    </div>
+                    
+                {% endfor %}
+                <input type="submit" value="{% trans "Filter" %}" id="prefixes_submit" class="btn btn-primary btn-sm" />
+                <input type="button" value="{% trans "Clear" %}" id="prefixes_submit" class="btn btn-primary btn-sm" onclick="location.assign('{% url 'forumapp.diamandas.myghtyboard.views.topic_list' forum.id %}');" />
+                </form>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                </tr>
+            {% endif %}
+           {% for topic in object_list %}
+            <tr {% if topic.is_solved %}class="small_solved"{% else %}class="small"{% endif %}>
+            <td>
+            {% if topic.is_locked %}
+                    <img src="{{STATIC_URL}}forum/static/img/forum/lock.png" alt="*" />
+            {% else %}
+                    {% if topic.is_sticky %}
+                            <img src="{{STATIC_URL}}forum/static/img/forum/stick.png" alt="*" />
+                    {% else %}
+                            {% if topic.is_global %}
+                                    <img src="{{STATIC_URL}}forum/static/img/forum/glob.png" alt="*" />
+                            {% else %}
+                                    {% pyif user.get_profile.last_visit < topic.modification_date %}
+                                        <img src="{{STATIC_URL}}forum/static/img/forum/new.png" alt="*" />
+                                    {% else %}
+                                        <img src="{{STATIC_URL}}forum/static/img/forum/normal.png" alt="*" />
+                                    {% endif %}
+                            {% endif%}
+                    {% endif%}
+            {% endif %}</td>
+                          <td style="text-align:left;">
+                                {% if topic.is_solved %}[{% trans "Solved" %}] {% endif %}<a href="{% url 'forumapp.diamandas.myghtyboard.views.post_list' topic.last_pagination_page topic.id %}{% pyif user.get_profile.last_visit < topic.modification_date %}#new{% endif %}"><strong>{% if forum.use_prefixes %}{{ topic.prefixes }} {% endif %}{{ topic.name }}</strong></a>
+                                {% if user.is_authenticated %}<p class="toptions">
+                                    {% pyif perms.is_staff or topic.author == current_user %}
+                                        {% if topic.is_solved %}
+						
+                                                <a href="{% url 'forumapp.diamandas.myghtyboard.views_actions.unsolve_topic' topic.id forum.id %}" class="unsolve">{% trans "Unsolve Topic" %}</a>
+                                            {% else %}
+                                                <a href="{% url 'forumapp.diamandas.myghtyboard.views_actions.solve_topic' topic.id forum.id %}"  class="solve">{% trans "Mark as solved" %}</a>
+                                        {% endif %}
+                                    {% endif %}
+                                    {% if perms.is_staff %}
+                                        [<a href="{% url 'forumapp.diamandas.myghtyboard.views_actions.delete_topic' topic.id forum.id %}" onclick="return confirm('{% trans "Delete this Topic and all Posts?" %}')">{% trans "Delete" %}</a>]
+                                        {% if topic.is_locked %}
+                                                [<a href="{% url 'forumapp.diamandas.myghtyboard.views_actions.open_topic' topic.id forum.id %}" onclick="return confirm('{% trans "Open This Topic?" %}')">{% trans "Unlock" %}</a>]
+                                        {% else %}
+                                                [<a href="{% url 'forumapp.diamandas.myghtyboard.views_actions.close_topic' topic.id forum.id %}" onclick="return confirm('{% trans "Close This Topic?" %}')">{% trans "Lock" %}</a>]
+                                        {% endif %}
+                                        {% ifnotequal topic.is_locked 1 %}
+                                        [<a href="{% url 'forumapp.diamandas.myghtyboard.views_actions.move_topic' topic.id forum.id %}">{% trans "Move" %}</a>]
+                                         {% endifnotequal %}
+                                    {% endif %}
+                                </p>
+                                {% endif %}
+                          </td>
+                          <td>{{ topic.posts }}</td>
+                          <td>{{ topic.author }}</td>
+                          <td>{{ topic.lastposter}}<br />{{topic.modification_date|date:"d.m.Y" }}</td>
+            </tr>
+	    {% endfor %}
+            {% ifnotequal pages 1 %}
+            <tr class="small">
+                <td></td>
+                <td>
+                    <nav>
+                      <ul class="pagination">
+                        <li>
+                          <a href="{% url 'forumapp.diamandas.myghtyboard.views.topic_list' forum.id prew %}" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                          </a>
+                        </li>
+                         {% for i in cnt %}
+                             {% ifequal i page %}
+                              <li class="active">
+                             {% else %}
+                          	  <li class="">
+                          	{% endifequal %}
+                                <a href="{% url 'forumapp.diamandas.myghtyboard.views.topic_list' forum.id i %}">{{ i }}</a>
+                              </li>
+                         {% endfor %} 
+                        <li>
+                          <a href="{% url 'forumapp.diamandas.myghtyboard.views.topic_list' forum.id next %}" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            {% endifnotequal %}
+          </table>
+</div>
+{% if not user.is_authenticated and not perms.add_topic %}
+<div style="float:right;padding:10px;font-weight:bold;">
+    <a href="/neoforum/user/login/?next={% url 'forumapp.diamandas.myghtyboard.views.topic_list' forum.id %}">{% trans "Login to start a topic" %}</a>
+</div>
+{% endif %}
+
+
+               <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#topicadd"> {% trans "Add New Topic" %} </button>
+                </div>
+               </div>
+
+ <div id="topicadd" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h3 class="modal-title" id="myModalLabel">{% trans "Add New Topic" %}</h3>
+              </div>
+              <div class="modal-body">
+                
+                  
+{% if perms.add_topic %}
+    <form method="post" action="{% url 'forumapp.diamandas.myghtyboard.views_add_edit.add_topic' forum.id %}" class="form-horizontal" role="form">{% csrf_token %}
+    
+    <div class="">
+        
+        <div class="form-group">
+         <label for="inputTitle" class="col-sm-2 control-label">{% trans "Title" %}</label>
+         <div class="col-sm-10">
+            {{ form.name }}{% if form.name.errors %}<br />*** {{ form.name.errors|join:", " }}{% endif %}
+         </div>
+	    </div>
+        
+         {% if pr %}  
+          <div class="form-group">
+              <label for="inputTitle" class="col-sm-2 control-label">{% trans "Prefixes" %}</label>
+              <div class="col-sm-10">	
+                 {% for i in pr %}
+                    <input type="checkbox" name="prefix[]" value="{{ i.id }}" style="width:auto;" /> {{ i.name }} 
+                 {% endfor %}
+              </div>
+          </div>
+        
+          
+          {% endif %}
+	{% if not user.is_authenticated %}
+		<div class="form-group">
+            <label for="inputTitle" class="col-sm-2 control-label">{% trans "Nick" %}</label>
+            <div class="col-sm-10">	
+			{{ form.nick }}{% if form.nick.errors %}<br />*** {{ form.nick.errors|join:", " }}{% endif %}
+		   </div>
+		</div>
+		
+	{% endif %}
+     <div class="form-group">
+         <label for="inputTitle" class="col-sm-2 control-label">{% trans "Content" %}</label>
+         <div class="col-sm-10">
+		  <a name="c"></a>
+	      <textarea name="text" rows="3" cols="60" class="form-control">{{ post_text }}</textarea>
+	      <div><b>{% trans "Available Tags" %}</b>: [b], [u], [i], [code]. [python], [php], [url], [img], [quote].<br />
+		{% trans "Use <b>[code] or [python], [php]</b> for code and config text pasting." %}</div>
+		</div>
+	</div>
+	
+        {% if perms.is_staff %}
+            <div class="form-group">
+                <label for="inputTitle" class="col-sm-2 control-label">{% trans "Options" %}</label>
+                <div class="col-sm-10" id="checkboxes">	
+                   {{ form.is_sticky }} {% trans "Sticky" %}{% if form.is_sticky.errors %}<br />*** {{ form.is_sticky.errors|join:", " }}{% endif %}
+                   {{ form.is_global }} {% trans "Global" %}{% if form.is_global.errors %}<br />*** {{ form.is_global.errors|join:", " }}{% endif %}
+            	</div>
+            </div>
+            
+        {% endif %}
+	
+	{% if form.recaptcha %}
+	  <div class="form-group">
+          <div class="col-sm-2"></div>
+	     <div class="col-sm-2" id='vertify'>
+    <img id='verticode' class="img-responsive" src="{{ captcha }}" width="145" height="30" alt="CAPTCHA" border="1" onclick= "calcuteVertifyCode()" style="cursor: pointer;" title="看不清？点击更换另一个验证码" />
+       </div>
+          <div class="col-sm-8">	
+		  		{{ form.recaptcha }}{% if form.recaptcha.errors %}<div class="errmsg">{{ form.recaptcha.errors|join:", " }}</div>{% endif %}
+	  		</div>
+	  </div>
+	  
+	{% endif %}
+	
+	
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">	
+                <input type="submit" value="{% trans "Add Topic" %}" class="submit btn btn-default" id="subtopic" />
+		</div>
+	</div>
+	
+    </div>
+    </form>
+{% endif %}
+
+{% if perms.is_spam %}
+<div class="box">{% trans "To many anonymous posts. Login to post topics and new messages." %}</div>
+{% endif %}
+                  
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+            <!-- /.modal-content -->
+          </div>
+          <!-- /.modal-dialog -->
+        </div>
+    
+{% endblock %}

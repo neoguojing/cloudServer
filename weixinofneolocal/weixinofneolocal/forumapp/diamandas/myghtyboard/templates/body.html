@@ -1,0 +1,32 @@
+{% extends "header.html" %}
+{% load i18n %}
+
+{% block neo_title %}MyghtyBoard Demo{% endblock %}
+{% block neo_meta %}
+		<meta name="Description" content="{% block description %}{{ site_desc }}{% endblock %}" />
+		<meta name="Keywords" content="{% block keywords %}{{ site_keywords }}{% endblock %}" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+{% endblock %}
+{% block neo_link %}
+		<link rel="stylesheet" href="{{STATIC_URL}}forum/static/style_f2.css">
+		<link rel="stylesheet" type="text/css" href="{{STATIC_URL}}forum/static/print_style.css" media="print" />
+{% endblock %}
+
+{% block neo_fullmenu %}
+
+<div class="btn-group btn-group-justified" role="group" aria-label="...">
+  <a class="btn btn-primary" href="{% url 'forumapp.diamandas.myghtyboard.views.category_list' %}">
+    {% trans "Back to Forum" %}
+  </a>
+  <a class="btn btn-primary" href="{% url 'forumapp.diamandas.myghtyboard.views.last_topic_list' %}">
+ 	{% trans "Last Active Topics" %}
+  </a>
+  <a class="btn btn-primary" href="{% url 'forumapp.diamandas.myghtyboard.views.my_topic_list' %}">
+    {% trans "My Topics" %}
+  </a>
+   <a class="btn btn-primary" href="{% url 'forumapp.diamandas.myghtyboard.views.my_posttopic_list' %}">
+    {% trans "My Posts" %}
+  </a>
+</div>
+
+{% endblock %}

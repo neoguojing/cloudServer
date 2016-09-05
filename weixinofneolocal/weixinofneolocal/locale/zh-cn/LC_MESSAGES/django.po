@@ -1,0 +1,4448 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-04-27 22:07+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\404.html.py:4
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\404.html.py:8
+#: .\django_admin_bootstrapped\templates\admin\404.html.py:4
+#: .\django_admin_bootstrapped\templates\admin\404.html.py:8
+#: .\zinnia\templates\404.html.py:10 .\zinnia\templates\404.html.py:15
+msgid "Page not found"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\404.html.py:10
+#: .\django_admin_bootstrapped\templates\admin\404.html.py:10
+msgid "We're sorry, but the requested page could not be found."
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\500.html.py:7
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\app_index.html.py:8
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\change_form.html.py:21
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\change_list.html.py:38
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\delete_confirmation.html.py:8
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\delete_selected_confirmation.html.py:8
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\index.html.py:12
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\invalid_setup.html.py:7
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\object_history.html.py:8
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\auth\user\change_password.html.py:15
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\change_form.html.py:77
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\change_list.html.py:8
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\plugin_change_form.html.py:84
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\breadcrumbs.html.py:5
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\change_form.html.py:7
+#: .\django_admin_bootstrapped\bootstrap3\templates\registration\password_change_done.html.py:6
+#: .\django_admin_bootstrapped\bootstrap3\templates\registration\password_change_form.html.py:7
+#: .\django_admin_bootstrapped\bootstrap3\templates\registration\password_reset_complete.html.py:6
+#: .\django_admin_bootstrapped\bootstrap3\templates\registration\password_reset_confirm.html.py:6
+#: .\django_admin_bootstrapped\bootstrap3\templates\registration\password_reset_done.html.py:6
+#: .\django_admin_bootstrapped\bootstrap3\templates\registration\password_reset_form.html.py:6
+#: .\django_admin_bootstrapped\templates\admin\500.html.py:7
+#: .\django_admin_bootstrapped\templates\admin\app_index.html.py:8
+#: .\django_admin_bootstrapped\templates\admin\change_form.html.py:21
+#: .\django_admin_bootstrapped\templates\admin\change_list.html.py:49
+#: .\django_admin_bootstrapped\templates\admin\delete_confirmation.html.py:8
+#: .\django_admin_bootstrapped\templates\admin\delete_selected_confirmation.html.py:8
+#: .\django_admin_bootstrapped\templates\admin\index.html.py:12
+#: .\django_admin_bootstrapped\templates\admin\invalid_setup.html.py:7
+#: .\django_admin_bootstrapped\templates\admin\object_history.html.py:8
+#: .\django_admin_bootstrapped\templates\admin\auth\user\change_password.html.py:15
+#: .\django_admin_bootstrapped\templates\admin\cms\page\change_form.html.py:77
+#: .\django_admin_bootstrapped\templates\admin\cms\page\change_list.html.py:8
+#: .\django_admin_bootstrapped\templates\admin\cms\page\plugin_change_form.html.py:84
+#: .\django_admin_bootstrapped\templates\admin\filer\breadcrumbs.html.py:5
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\change_form.html.py:7
+#: .\django_admin_bootstrapped\templates\registration\password_change_done.html.py:6
+#: .\django_admin_bootstrapped\templates\registration\password_change_form.html.py:7
+#: .\django_admin_bootstrapped\templates\registration\password_reset_complete.html.py:6
+#: .\django_admin_bootstrapped\templates\registration\password_reset_confirm.html.py:6
+#: .\django_admin_bootstrapped\templates\registration\password_reset_done.html.py:6
+#: .\django_admin_bootstrapped\templates\registration\password_reset_form.html.py:6
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\add_post.html.py:52
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\add_topic.html.py:9
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\edit_post.html.py:10
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\move_topic.html.py:8
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\mytopics_list.html.py:9
+#: .\forumapp\diamandas\userpanel\templates\userpanel\edit_user_data.html.py:36
+#: .\forumapp\diamandas\userpanel\templates\userpanel\login.html.py:60
+#: .\forumapp\diamandas\userpanel\templates\userpanel\panel.html.py:126
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_change.html.py:62
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_change_done.html.py:19
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_reset_complete.html.py:15
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_reset_confirm.html.py:48
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_reset_done.html.py:13
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_reset_form.html.py:31
+#: .\forumapp\diamandas\userpanel\templates\userpanel\register.html.py:133
+#: .\templates\header.html.py:24
+msgid "Home"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\500.html.py:8
+#: .\django_admin_bootstrapped\templates\admin\500.html.py:8
+#: .\zinnia\templates\500.html.py:10 .\zinnia\templates\500.html.py:15
+msgid "Server error"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\500.html.py:12
+#: .\django_admin_bootstrapped\templates\admin\500.html.py:12
+msgid "Server error (500)"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\500.html.py:15
+#: .\django_admin_bootstrapped\templates\admin\500.html.py:15
+msgid "Server Error <em>(500)</em>"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\500.html.py:16
+#: .\django_admin_bootstrapped\templates\admin\500.html.py:16
+#: .\zinnia\templates\500.html.py:17
+msgid ""
+"There's been an error. It's been reported to the site administrators via e-"
+"mail and should be fixed shortly. Thanks for your patience."
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\actions.html.py:4
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\actions.html.py:8
+#: .\django_admin_bootstrapped\templates\admin\actions.html.py:4
+#: .\django_admin_bootstrapped\templates\admin\filer\actions.html.py:8
+msgid "Run the selected action"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\actions.html.py:4
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\actions.html.py:8
+#: .\django_admin_bootstrapped\templates\admin\actions.html.py:4
+#: .\django_admin_bootstrapped\templates\admin\filer\actions.html.py:8
+msgid "Go"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\actions.html.py:11
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\actions.html.py:15
+#: .\django_admin_bootstrapped\templates\admin\actions.html.py:11
+#: .\django_admin_bootstrapped\templates\admin\filer\actions.html.py:15
+msgid "Click here to select the objects across all pages"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\actions.html.py:11
+#: .\django_admin_bootstrapped\templates\admin\actions.html.py:11
+#, python-format
+msgid "Select all %(total_count)s %(module_name)s"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\actions.html.py:13
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\actions.html.py:17
+#: .\django_admin_bootstrapped\templates\admin\actions.html.py:13
+#: .\django_admin_bootstrapped\templates\admin\filer\actions.html.py:17
+msgid "Clear selection"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\app_index.html.py:18
+#: .\django_admin_bootstrapped\templates\admin\app_index.html.py:18
+msgid "administration"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\base.html.py:69
+#: .\django_admin_bootstrapped\templates\admin\base.html.py:67
+msgid "Welcome,"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\base.html.py:72
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\auth\user\change_password.html.py:19
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\auth\user\change_password.html.py:53
+#: .\django_admin_bootstrapped\templates\admin\base.html.py:70
+#: .\django_admin_bootstrapped\templates\admin\auth\user\change_password.html.py:19
+#: .\django_admin_bootstrapped\templates\admin\auth\user\change_password.html.py:53
+#: .\utils\registration\templates\registration\password_change_form.html.py:3
+#: .\utils\registration\templates\registration\password_change_form.html.py:8
+msgid "Change password"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\base.html.py:74
+#: .\django_admin_bootstrapped\templates\admin\base.html.py:72
+#: .\zinnia\templates\comments\zinnia\entry\form.html.py:20
+#: .\zinnia\templates\zinnia\base.html.py:96
+#: .\zinnia\templates\zinnia\base.html.py:97
+msgid "Log out"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\base.html.py:83
+#: .\django_admin_bootstrapped\templates\admin\base.html.py:81
+msgid "Recent Actions"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\base.html.py:95
+#: .\django_admin_bootstrapped\templates\admin\base.html.py:93
+msgid "Unknown content"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\base.html.py:100
+#: .\django_admin_bootstrapped\templates\admin\base.html.py:98
+msgid "None available"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\base.html.py:109
+#: .\django_admin_bootstrapped\templates\admin\base.html.py:107
+msgid "Documentation"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\base_site.html.py:4
+#: .\django_admin_bootstrapped\templates\admin\base_site.html.py:4
+msgid "Django site admin"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\change_form.html.py:24
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\index.html.py:65
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\change_form.html.py:80
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\plugin_change_form.html.py:87
+#: .\django_admin_bootstrapped\templates\admin\change_form.html.py:24
+#: .\django_admin_bootstrapped\templates\admin\index.html.py:64
+#: .\django_admin_bootstrapped\templates\admin\cms\page\change_form.html.py:80
+#: .\django_admin_bootstrapped\templates\admin\cms\page\plugin_change_form.html.py:87
+msgid "Add"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\change_form.html.py:33
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\object_history.html.py:12
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\change_form.html.py:112
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\change_form.html.py:22
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\image\change_form.html.py:15
+#: .\django_admin_bootstrapped\templates\admin\change_form.html.py:33
+#: .\django_admin_bootstrapped\templates\admin\object_history.html.py:12
+#: .\django_admin_bootstrapped\templates\admin\cms\page\change_form.html.py:112
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\change_form.html.py:22
+#: .\django_admin_bootstrapped\templates\admin\filer\image\change_form.html.py:15
+msgid "History"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\change_form.html.py:34
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\change_form.html.py:115
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\edit_inline\stacked.html.py:22
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\edit_inline\tabular.html.py:33
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\change_form.html.py:23
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\image\change_form.html.py:16
+#: .\django_admin_bootstrapped\templates\admin\change_form.html.py:34
+#: .\django_admin_bootstrapped\templates\admin\cms\page\change_form.html.py:115
+#: .\django_admin_bootstrapped\templates\admin\edit_inline\stacked.html.py:22
+#: .\django_admin_bootstrapped\templates\admin\edit_inline\tabular.html.py:33
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\change_form.html.py:23
+#: .\django_admin_bootstrapped\templates\admin\filer\image\change_form.html.py:16
+#: .\utils\mptt\admin.py:113 .\utils\mptt\admin.py:115
+msgid "View on site"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\change_form.html.py:48
+#: .\django_admin_bootstrapped\templates\admin\change_form.html.py:48
+msgid "Fields in <strong>bold</strong> are required."
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\change_form.html.py:51
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\change_list.html.py:82
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\login.html.py:44
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\auth\user\change_password.html.py:29
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\change_form.html.py:147
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\plugin_change_form.html.py:101
+#: .\django_admin_bootstrapped\bootstrap3\templates\registration\password_change_form.html.py:20
+#: .\django_admin_bootstrapped\templates\admin\change_form.html.py:51
+#: .\django_admin_bootstrapped\templates\admin\change_list.html.py:99
+#: .\django_admin_bootstrapped\templates\admin\login.html.py:44
+#: .\django_admin_bootstrapped\templates\admin\auth\user\change_password.html.py:29
+#: .\django_admin_bootstrapped\templates\admin\cms\page\change_form.html.py:147
+#: .\django_admin_bootstrapped\templates\admin\cms\page\plugin_change_form.html.py:101
+#: .\django_admin_bootstrapped\templates\registration\password_change_form.html.py:20
+msgid "Please correct the error below."
+msgid_plural "Please correct the errors below."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\change_list.html.py:54
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\change_list.html.py:91
+#: .\django_admin_bootstrapped\templates\admin\change_list.html.py:65
+#: .\django_admin_bootstrapped\templates\admin\cms\page\change_list.html.py:91
+#, python-format
+msgid "Add %(name)s"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\change_list.html.py:64
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\change_list.html.py:115
+#: .\django_admin_bootstrapped\templates\admin\change_list.html.py:80
+#: .\django_admin_bootstrapped\templates\admin\cms\page\change_list.html.py:115
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\topics_list.html.py:112
+msgid "Filter"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\change_list.html.py:121
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\page_submit_line.html.py:15
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\submit_line.html.py:9
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\change_form.html.py:293
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\plugin_change_form.html.py:131
+#: .\django_admin_bootstrapped\templates\admin\change_list.html.py:139
+#: .\django_admin_bootstrapped\templates\admin\page_submit_line.html.py:15
+#: .\django_admin_bootstrapped\templates\admin\submit_line.html.py:9
+#: .\django_admin_bootstrapped\templates\admin\cms\page\change_form.html.py:293
+#: .\django_admin_bootstrapped\templates\admin\cms\page\plugin_change_form.html.py:131
+msgid "Save"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\change_list_results.html.py:19
+#: .\django_admin_bootstrapped\templates\admin\change_list_results.html.py:19
+msgid "Remove from sorting"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\change_list_results.html.py:20
+#: .\django_admin_bootstrapped\templates\admin\change_list_results.html.py:20
+#, python-format
+msgid "Sorting priority: %(priority_number)s"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\change_list_results.html.py:21
+#: .\django_admin_bootstrapped\templates\admin\change_list_results.html.py:21
+msgid "Toggle sorting"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\delete_confirmation.html.py:12
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\page_submit_line.html.py:5
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\submit_line.html.py:3
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\menu_item.html.py:44
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\directory_table.html.py:66
+#: .\django_admin_bootstrapped\templates\admin\delete_confirmation.html.py:12
+#: .\django_admin_bootstrapped\templates\admin\page_submit_line.html.py:5
+#: .\django_admin_bootstrapped\templates\admin\submit_line.html.py:3
+#: .\django_admin_bootstrapped\templates\admin\cms\page\menu_item.html.py:44
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\directory_table.html.py:66
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\topics_list.html.py:153
+msgid "Delete"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\delete_confirmation.html.py:19
+#: .\django_admin_bootstrapped\templates\admin\delete_confirmation.html.py:19
+#, python-format
+msgid ""
+"Deleting the %(object_name)s '%(escaped_object)s' would result in deleting "
+"related objects, but your account doesn't have permission to delete the "
+"following types of objects:"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\delete_confirmation.html.py:27
+#: .\django_admin_bootstrapped\templates\admin\delete_confirmation.html.py:27
+#, python-format
+msgid ""
+"Deleting the %(object_name)s '%(escaped_object)s' would require deleting the "
+"following protected related objects:"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\delete_confirmation.html.py:35
+#: .\django_admin_bootstrapped\templates\admin\delete_confirmation.html.py:38
+#, python-format
+msgid ""
+"Are you sure you want to delete the %(object_name)s \"%(escaped_object)s\"? "
+"All of the following related items will be deleted:"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\delete_confirmation.html.py:40
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\delete_selected_confirmation.html.py:47
+#: .\django_admin_bootstrapped\templates\admin\delete_confirmation.html.py:46
+#: .\django_admin_bootstrapped\templates\admin\delete_selected_confirmation.html.py:51
+msgid "Yes, I'm sure"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\delete_selected_confirmation.html.py:11
+#: .\django_admin_bootstrapped\templates\admin\delete_selected_confirmation.html.py:11
+msgid "Delete multiple objects"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\delete_selected_confirmation.html.py:18
+#: .\django_admin_bootstrapped\templates\admin\delete_selected_confirmation.html.py:20
+#, python-format
+msgid ""
+"Deleting the selected %(objects_name)s would result in deleting related "
+"objects, but your account doesn't have permission to delete the following "
+"types of objects:"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\delete_selected_confirmation.html.py:26
+#: .\django_admin_bootstrapped\templates\admin\delete_selected_confirmation.html.py:28
+#, python-format
+msgid ""
+"Deleting the selected %(objects_name)s would require deleting the following "
+"protected related objects:"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\delete_selected_confirmation.html.py:34
+#: .\django_admin_bootstrapped\templates\admin\delete_selected_confirmation.html.py:37
+#, python-format
+msgid ""
+"Are you sure you want to delete the selected %(objects_name)s? All of the "
+"following objects and their related items will be deleted:"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filter.html.py:2
+#: .\django_admin_bootstrapped\templates\admin\filter.html.py:2
+#, python-format
+msgid " By %(filter_title)s "
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\index.html.py:19
+#: .\django_admin_bootstrapped\templates\admin\index.html.py:19
+msgid "Applications"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\index.html.py:51
+#: .\django_admin_bootstrapped\templates\admin\index.html.py:51
+#, python-format
+msgid "Models available in the %(name)s application."
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\index.html.py:69
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\directory_listing.html.py:85
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\directory_table.html.py:37
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\directory_table.html.py:68
+#: .\django_admin_bootstrapped\templates\admin\index.html.py:67
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\directory_listing.html.py:85
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\directory_table.html.py:37
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\directory_table.html.py:68
+msgid "Change"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\index.html.py:78
+#: .\django_admin_bootstrapped\templates\admin\index.html.py:76
+msgid "You don't have permission to edit anything."
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\invalid_setup.html.py:13
+#: .\django_admin_bootstrapped\templates\admin\invalid_setup.html.py:13
+msgid ""
+"Something's wrong with your database installation. Make sure the appropriate "
+"database tables have been created, and make sure the database is readable by "
+"the appropriate user."
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\login.html.py:41
+#: .\django_admin_bootstrapped\templates\admin\login.html.py:41
+msgid "<h2>Login</h2>"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\login.html.py:56
+#: .\django_admin_bootstrapped\templates\admin\login.html.py:56
+msgid "Username:"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\login.html.py:65
+#: .\django_admin_bootstrapped\templates\admin\login.html.py:65
+msgid "Password:"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\login.html.py:78
+#: .\django_admin_bootstrapped\templates\admin\login.html.py:78
+msgid "Forgotten your password or username?"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\login.html.py:84
+#: .\django_admin_bootstrapped\bootstrap3\templates\registration\password_reset_complete.html.py:18
+#: .\django_admin_bootstrapped\templates\admin\login.html.py:84
+#: .\django_admin_bootstrapped\templates\registration\password_reset_complete.html.py:18
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_reset_complete.html.py:12
+msgid "Log in"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\object_history.html.py:24
+#: .\django_admin_bootstrapped\templates\admin\object_history.html.py:24
+msgid "Date/time"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\object_history.html.py:25
+#: .\django_admin_bootstrapped\templates\admin\object_history.html.py:25
+msgid "User"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\object_history.html.py:26
+#: .\django_admin_bootstrapped\templates\admin\object_history.html.py:26
+msgid "Action"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\object_history.html.py:40
+#: .\django_admin_bootstrapped\templates\admin\object_history.html.py:40
+msgid ""
+"This object doesn't have a change history. It probably wasn't added via this "
+"admin site."
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\page_submit_line.html.py:7
+#: .\django_admin_bootstrapped\templates\admin\page_submit_line.html.py:7
+#, python-format
+msgid "Delete %(language)s translation"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\page_submit_line.html.py:12
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\submit_line.html.py:6
+#: .\django_admin_bootstrapped\templates\admin\page_submit_line.html.py:12
+#: .\django_admin_bootstrapped\templates\admin\submit_line.html.py:6
+msgid "Save as new"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\page_submit_line.html.py:13
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\submit_line.html.py:7
+#: .\django_admin_bootstrapped\templates\admin\page_submit_line.html.py:13
+#: .\django_admin_bootstrapped\templates\admin\submit_line.html.py:7
+msgid "Save and add another"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\page_submit_line.html.py:14
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\submit_line.html.py:8
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\change_form.html.py:292
+#: .\django_admin_bootstrapped\templates\admin\page_submit_line.html.py:14
+#: .\django_admin_bootstrapped\templates\admin\submit_line.html.py:8
+#: .\django_admin_bootstrapped\templates\admin\cms\page\change_form.html.py:292
+msgid "Save and continue editing"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\pagination.html.py:19
+#: .\django_admin_bootstrapped\templates\admin\pagination.html.py:21
+msgid "Show all"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\search_form.html.py:6
+#: .\django_admin_bootstrapped\templates\admin\search_form.html.py:5
+#: .\zinnia\templates\zinnia\skeleton.html.py:76
+msgid "Search"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\search_form.html.py:10
+#: .\django_admin_bootstrapped\templates\admin\search_form.html.py:7
+#, python-format
+msgid "%(counter)s result"
+msgid_plural "%(counter)s results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\search_form.html.py:10
+#: .\django_admin_bootstrapped\templates\admin\search_form.html.py:7
+#, python-format
+msgid "%(full_result_count)s total"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\auth\user\add_form.html.py:6
+#: .\django_admin_bootstrapped\templates\admin\auth\user\add_form.html.py:6
+msgid ""
+"First, enter a username and password. Then, you'll be able to edit more user "
+"options."
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\auth\user\add_form.html.py:8
+#: .\django_admin_bootstrapped\templates\admin\auth\user\add_form.html.py:8
+msgid "Enter a username and password."
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\auth\user\change_password.html.py:33
+#: .\django_admin_bootstrapped\templates\admin\auth\user\change_password.html.py:33
+#, python-format
+msgid "Enter a new password for the user <strong>%(username)s</strong>."
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\auth\user\change_password.html.py:40
+#: .\django_admin_bootstrapped\templates\admin\auth\user\change_password.html.py:40
+#: .\forumapp\diamandas\userpanel\forms.py:59
+#: .\forumapp\diamandas\userpanel\templates\userpanel\login.html.py:35
+#: .\forumapp\diamandas\userpanel\templates\userpanel\login.html.py:42
+#: .\forumapp\diamandas\userpanel\templates\userpanel\register.html.py:87
+#: .\zinnia\templates\zinnia\password.html.py:24
+msgid "Password"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\auth\user\change_password.html.py:46
+#: .\django_admin_bootstrapped\bootstrap3\templates\registration\password_change_form.html.py:50
+#: .\django_admin_bootstrapped\templates\admin\auth\user\change_password.html.py:46
+#: .\django_admin_bootstrapped\templates\registration\password_change_form.html.py:50
+msgid "Password (again)"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\auth\user\change_password.html.py:47
+#: .\django_admin_bootstrapped\templates\admin\auth\user\change_password.html.py:47
+msgid "Enter the same password as above, for verification."
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\change_form.html.py:4
+#: .\django_admin_bootstrapped\templates\admin\cms\page\change_form.html.py:4
+msgid "Change a page"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\change_form.html.py:86
+#: .\django_admin_bootstrapped\templates\admin\cms\page\change_form.html.py:86
+msgid "Approve page deletion"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\change_form.html.py:92
+#: .\django_admin_bootstrapped\templates\admin\cms\page\change_form.html.py:92
+#, python-format
+msgid "(requires approvement at %(moderation_level)s level)"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\change_form.html.py:93
+#: .\django_admin_bootstrapped\templates\admin\cms\page\change_form.html.py:93
+msgid "(you can perform actions on this page directly)"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\change_form.html.py:105
+#: .\django_admin_bootstrapped\templates\admin\cms\page\change_form.html.py:105
+msgid "Remove delete request"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\change_form.html.py:108
+#: .\django_admin_bootstrapped\templates\admin\cms\page\change_form.html.py:108
+msgid "Approve delete"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\change_form.html.py:108
+#: .\django_admin_bootstrapped\templates\admin\cms\page\change_form.html.py:108
+#: .\django_comments\templates\comments\approve.html.py:12
+msgid "Approve"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\change_form.html.py:108
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\change_form.html.py:109
+#: .\django_admin_bootstrapped\templates\admin\cms\page\change_form.html.py:108
+#: .\django_admin_bootstrapped\templates\admin\cms\page\change_form.html.py:109
+#: .\zinnia\models_bases\entry.py:43
+msgid "draft"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\change_form.html.py:109
+#: .\django_admin_bootstrapped\templates\admin\cms\page\change_form.html.py:109
+#: .\django_comments\templates\comments\form.html.py:18
+#: .\django_comments\templates\comments\preview.html.py:33
+#: .\zinnia\templates\admin\zinnia\widgets\_draft_entries.html.py:15
+#: .\zinnia\templates\comments\zinnia\entry\form.html.py:25
+msgid "Preview"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\change_form.html.py:165
+#: .\django_admin_bootstrapped\templates\admin\cms\page\change_form.html.py:165
+msgid "All permissions"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\change_form.html.py:166
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\change_form.html.py:178
+#: .\django_admin_bootstrapped\templates\admin\cms\page\change_form.html.py:166
+#: .\django_admin_bootstrapped\templates\admin\cms\page\change_form.html.py:178
+msgid "Loading..."
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\change_form.html.py:177
+#: .\django_admin_bootstrapped\templates\admin\cms\page\change_form.html.py:177
+msgid "Page states"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\change_form.html.py:202
+#: .\django_admin_bootstrapped\templates\admin\cms\page\change_form.html.py:202
+#, python-format
+msgid ""
+"This page must be moderated at level %(moderation_level)s, post a message "
+"for moderator."
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\change_form.html.py:204
+#: .\django_admin_bootstrapped\templates\admin\cms\page\change_form.html.py:204
+msgid "Request approvemet"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\change_list.html.py:3
+#: .\django_admin_bootstrapped\templates\admin\cms\page\change_list.html.py:3
+msgid "List of pages"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\change_list.html.py:87
+#: .\django_admin_bootstrapped\templates\admin\cms\page\change_list.html.py:87
+#, python-format
+msgid "Recover deleted %(name)s"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\change_list.html.py:101
+#: .\django_admin_bootstrapped\templates\admin\cms\page\change_list.html.py:101
+msgid "Pages on:"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\change_list.html.py:140
+#: .\django_admin_bootstrapped\templates\admin\cms\page\change_list.html.py:140
+msgid "Successfully moved"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\change_list.html.py:149
+#: .\django_admin_bootstrapped\templates\admin\cms\page\change_list.html.py:149
+msgid "An error occured. Please reload the page"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\menu_item.html.py:5
+#: .\django_admin_bootstrapped\templates\admin\cms\page\menu_item.html.py:5
+msgid "select this page"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\menu_item.html.py:5
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\menu_item.html.py:6
+#: .\django_admin_bootstrapped\templates\admin\cms\page\menu_item.html.py:5
+#: .\django_admin_bootstrapped\templates\admin\cms\page\menu_item.html.py:6
+msgid "edit this page"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\menu_item.html.py:6
+#: .\django_admin_bootstrapped\templates\admin\cms\page\menu_item.html.py:6
+msgid "edit"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\menu_item.html.py:16
+#: .\django_admin_bootstrapped\templates\admin\cms\page\menu_item.html.py:16
+msgid "insert above"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\menu_item.html.py:17
+#: .\django_admin_bootstrapped\templates\admin\cms\page\menu_item.html.py:17
+msgid "insert below"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\menu_item.html.py:19
+#: .\django_admin_bootstrapped\templates\admin\cms\page\menu_item.html.py:19
+msgid "insert inside"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\menu_item.html.py:23
+#: .\django_admin_bootstrapped\templates\admin\cms\page\menu_item.html.py:23
+msgid "softroot"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\menu_item.html.py:23
+#: .\django_admin_bootstrapped\templates\admin\cms\page\menu_item.html.py:23
+msgid "home"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\menu_item.html.py:26
+#: .\django_admin_bootstrapped\templates\admin\cms\page\menu_item.html.py:26
+#, python-format
+msgid "Edit this page in %(language)s "
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\menu_item.html.py:33
+#: .\django_admin_bootstrapped\templates\admin\cms\page\menu_item.html.py:33
+msgid "Cut"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\menu_item.html.py:33
+#: .\django_admin_bootstrapped\templates\admin\cms\page\menu_item.html.py:33
+msgid "cut"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\menu_item.html.py:34
+#: .\django_admin_bootstrapped\templates\admin\cms\page\menu_item.html.py:34
+msgid "Copy"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\menu_item.html.py:34
+#: .\django_admin_bootstrapped\templates\admin\cms\page\menu_item.html.py:34
+msgid "copy"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\menu_item.html.py:37
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\menu_item.html.py:41
+#: .\django_admin_bootstrapped\templates\admin\cms\page\menu_item.html.py:37
+#: .\django_admin_bootstrapped\templates\admin\cms\page\menu_item.html.py:41
+msgid "Add Child"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\menu_item.html.py:37
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\menu_item.html.py:41
+#: .\django_admin_bootstrapped\templates\admin\cms\page\menu_item.html.py:37
+#: .\django_admin_bootstrapped\templates\admin\cms\page\menu_item.html.py:41
+msgid "add child"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\menu_item.html.py:44
+#: .\django_admin_bootstrapped\templates\admin\cms\page\menu_item.html.py:44
+msgid "delete"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\menu_item.html.py:61
+#: .\django_admin_bootstrapped\templates\admin\cms\page\menu_item.html.py:61
+msgid "Approve directly"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\menu_item.html.py:63
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\menu_item.html.py:75
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\menu_item.html.py:77
+#: .\django_admin_bootstrapped\templates\admin\cms\page\menu_item.html.py:63
+#: .\django_admin_bootstrapped\templates\admin\cms\page\menu_item.html.py:75
+#: .\django_admin_bootstrapped\templates\admin\cms\page\menu_item.html.py:77
+msgid "view"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\menu_item.html.py:68
+#: .\django_admin_bootstrapped\templates\admin\cms\page\menu_item.html.py:68
+msgid "Unpublish"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\menu_item.html.py:69
+#: .\django_admin_bootstrapped\templates\admin\cms\page\menu_item.html.py:69
+#: .\zinnia\templates\admin\zinnia\widgets\quickpost.html.py:35
+msgid "Publish"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\menu_item.html.py:75
+#: .\django_admin_bootstrapped\templates\admin\cms\page\menu_item.html.py:75
+msgid "View on page"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\plugin_change_form.html.py:130
+#: .\django_admin_bootstrapped\templates\admin\cms\page\plugin_change_form.html.py:130
+msgid "Cancel"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\widgets\installed_plugins_inc.html.py:4
+#: .\django_admin_bootstrapped\templates\admin\cms\page\widgets\installed_plugins_inc.html.py:4
+msgid "Available Plugins"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\widgets\installed_plugins_inc.html.py:7
+#: .\django_admin_bootstrapped\templates\admin\cms\page\widgets\installed_plugins_inc.html.py:7
+msgid "Generic"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\widgets\installed_plugins_inc.html.py:15
+#: .\django_admin_bootstrapped\templates\admin\cms\page\widgets\installed_plugins_inc.html.py:15
+msgid "Add Plugin"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\widgets\installed_plugins_inc.html.py:18
+#: .\django_admin_bootstrapped\templates\admin\cms\page\widgets\installed_plugins_inc.html.py:18
+msgid "From Language"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\cms\page\widgets\installed_plugins_inc.html.py:25
+#: .\django_admin_bootstrapped\templates\admin\cms\page\widgets\installed_plugins_inc.html.py:25
+msgid "Copy Plugins"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\edit_inline\stacked.html.py:94
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\edit_inline\tabular.html.py:120
+#: .\django_admin_bootstrapped\templates\admin\edit_inline\stacked.html.py:94
+#: .\django_admin_bootstrapped\templates\admin\edit_inline\tabular.html.py:120
+#, python-format
+msgid "Add another %(verbose_name)s"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\edit_inline\stacked.html.py:97
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\edit_inline\tabular.html.py:123
+#: .\django_admin_bootstrapped\templates\admin\edit_inline\stacked.html.py:97
+#: .\django_admin_bootstrapped\templates\admin\edit_inline\tabular.html.py:123
+#: .\django_comments\templates\comments\delete.html.py:12
+msgid "Remove"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\edit_inline\tabular.html.py:17
+#: .\django_admin_bootstrapped\templates\admin\edit_inline\tabular.html.py:17
+msgid "Delete?"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\actions.html.py:15
+#: .\django_admin_bootstrapped\templates\admin\filer\actions.html.py:15
+#, python-format
+msgid "Select all %(total_count)s files and/or folders"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\breadcrumbs.html.py:5
+#: .\django_admin_bootstrapped\templates\admin\filer\breadcrumbs.html.py:5
+msgid "Go back to admin homepage"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\breadcrumbs.html.py:6
+#: .\django_admin_bootstrapped\templates\admin\filer\breadcrumbs.html.py:6
+msgid "Go back to Filer app"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\breadcrumbs.html.py:6
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\change_form.html.py:8
+#: .\django_admin_bootstrapped\templates\admin\filer\breadcrumbs.html.py:6
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\change_form.html.py:8
+msgid "Media"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\breadcrumbs.html.py:7
+#: .\django_admin_bootstrapped\templates\admin\filer\breadcrumbs.html.py:7
+msgid "Go back to root folder"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\breadcrumbs.html.py:7
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\change_form.html.py:9
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\directory_listing.html.py:79
+#: .\django_admin_bootstrapped\templates\admin\filer\breadcrumbs.html.py:7
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\change_form.html.py:9
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\directory_listing.html.py:79
+msgid "root"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\breadcrumbs.html.py:9
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\breadcrumbs.html.py:12
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\change_form.html.py:11
+#: .\django_admin_bootstrapped\templates\admin\filer\breadcrumbs.html.py:9
+#: .\django_admin_bootstrapped\templates\admin\filer\breadcrumbs.html.py:12
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\change_form.html.py:11
+#, python-format
+msgid "Go back to '%(folder_name)s' folder"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\change_form.html.py:28
+#: .\django_admin_bootstrapped\templates\admin\filer\change_form.html.py:28
+msgid "duplicates"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\change_form.html.py:7
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\change_form.html.py:8
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\change_form.html.py:9
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\directory_listing.html.py:79
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\change_form.html.py:7
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\change_form.html.py:8
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\change_form.html.py:9
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\directory_listing.html.py:79
+msgid "Go back to"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\change_form.html.py:7
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\change_form.html.py:7
+msgid "admin homepage"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\change_form.html.py:8
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\change_form.html.py:8
+msgid "Filer"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\change_form.html.py:9
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\directory_listing.html.py:79
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\tools\clipboard\clipboard.html.py:28
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\change_form.html.py:9
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\directory_listing.html.py:79
+#: .\django_admin_bootstrapped\templates\admin\filer\tools\clipboard\clipboard.html.py:28
+msgid "folder"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\change_form.html.py:35
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\directory_listing.html.py:80
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\directory_listing.html.py:90
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\directory_table.html.py:31
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\change_form.html.py:35
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\directory_listing.html.py:80
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\directory_listing.html.py:90
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\directory_table.html.py:31
+msgid "Folder Icon"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\directory_listing.html.py:64
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\directory_listing.html.py:64
+msgid "Adds a new Folder"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\directory_listing.html.py:64
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\directory_listing.html.py:64
+msgid "New Folder"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\directory_listing.html.py:65
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\directory_listing.html.py:65
+msgid "upload files"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\directory_listing.html.py:65
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\directory_listing.html.py:65
+msgid "Upload"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\directory_listing.html.py:79
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\directory_listing.html.py:79
+msgid "Go back to the parent folder"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\directory_listing.html.py:81
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\directory_table.html.py:42
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\tools\search_form.html.py:16
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\directory_listing.html.py:81
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\directory_table.html.py:42
+#: .\django_admin_bootstrapped\templates\admin\filer\tools\search_form.html.py:16
+#, python-format
+msgid "1 folder"
+msgid_plural "%(counter)s folders"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\directory_listing.html.py:81
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\directory_table.html.py:42
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\tools\search_form.html.py:17
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\directory_listing.html.py:81
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\directory_table.html.py:42
+#: .\django_admin_bootstrapped\templates\admin\filer\tools\search_form.html.py:17
+#, python-format
+msgid "1 file"
+msgid_plural "%(counter)s files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\directory_listing.html.py:85
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\directory_listing.html.py:85
+msgid "Change current folder details"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\directory_table.html.py:13
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\directory_table.html.py:13
+#: .\django_comments\forms.py:97
+#: .\forumapp\diamandas\myghtyboard\models.py:109
+msgid "Name"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\directory_table.html.py:31
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\directory_table.html.py:37
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\directory_table.html.py:41
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\directory_table.html.py:31
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\directory_table.html.py:37
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\directory_table.html.py:41
+#, python-format
+msgid "Change '%(item_label)s' folder details"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\directory_table.html.py:43
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\directory_table.html.py:76
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\directory_table.html.py:43
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\directory_table.html.py:76
+msgid "Owner"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\directory_table.html.py:52
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\directory_table.html.py:52
+msgid "Select this file"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\directory_table.html.py:60
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\directory_table.html.py:68
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\directory_table.html.py:72
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\directory_table.html.py:60
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\directory_table.html.py:68
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\directory_table.html.py:72
+#, python-format
+msgid "Change '%(item_label)s' details"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\directory_table.html.py:66
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\directory_table.html.py:66
+#, python-format
+msgid "Delete '%(item_label)s'"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\directory_table.html.py:78
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\directory_table.html.py:78
+msgid "Permissions"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\directory_table.html.py:78
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\directory_table.html.py:78
+msgid "disabled"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\directory_table.html.py:78
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\directory_table.html.py:78
+msgid "enabled"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\directory_table.html.py:84
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\directory_table.html.py:84
+msgid "Move to clipboard"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\directory_table.html.py:92
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\directory_table.html.py:92
+msgid "there are no files or subfolders"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\directory_table.html.py:99
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\directory_table.html.py:99
+msgid "previous"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\directory_table.html.py:103
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\directory_table.html.py:103
+#, python-format
+msgid ""
+"\n"
+"            Page %(number)s of %(num_pages)s.\n"
+"            "
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\folder\directory_table.html.py:109
+#: .\django_admin_bootstrapped\templates\admin\filer\folder\directory_table.html.py:109
+msgid "next"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\image\change_form.html.py:28
+#: .\django_admin_bootstrapped\templates\admin\filer\image\change_form.html.py:28
+msgid "Full size preview"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\tools\search_form.html.py:8
+#: .\django_admin_bootstrapped\templates\admin\filer\tools\search_form.html.py:8
+msgid "Enter your search phrase here"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\tools\search_form.html.py:11
+#: .\django_admin_bootstrapped\templates\admin\filer\tools\search_form.html.py:11
+msgid "Check it to"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\tools\search_form.html.py:11
+#: .\django_admin_bootstrapped\templates\admin\filer\tools\search_form.html.py:11
+msgid "limit the search to current folder"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\tools\search_form.html.py:12
+#: .\django_admin_bootstrapped\templates\admin\filer\tools\search_form.html.py:12
+msgid "search the current folder"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\tools\search_form.html.py:16
+#: .\django_admin_bootstrapped\templates\admin\filer\tools\search_form.html.py:16
+msgid "found"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\tools\search_form.html.py:16
+#: .\django_admin_bootstrapped\templates\admin\filer\tools\search_form.html.py:16
+#: .\django_comments\forms.py:182
+#: .\django_comments\templates\comments\preview.html.py:16
+msgid "and"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\tools\search_form.html.py:17
+#: .\django_admin_bootstrapped\templates\admin\filer\tools\search_form.html.py:17
+msgid "cancel search"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\tools\clipboard\clipboard.html.py:9
+#: .\django_admin_bootstrapped\templates\admin\filer\tools\clipboard\clipboard.html.py:9
+msgid "Clipboard"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\tools\clipboard\clipboard.html.py:21
+#: .\django_admin_bootstrapped\templates\admin\filer\tools\clipboard\clipboard.html.py:21
+msgid "Paste all items here"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\tools\clipboard\clipboard.html.py:28
+#: .\django_admin_bootstrapped\templates\admin\filer\tools\clipboard\clipboard.html.py:28
+msgid "Move all clipboard files to"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\tools\clipboard\clipboard.html.py:28
+#: .\django_admin_bootstrapped\templates\admin\filer\tools\clipboard\clipboard.html.py:28
+msgid "unfiled files"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\tools\clipboard\clipboard.html.py:28
+#: .\django_admin_bootstrapped\templates\admin\filer\tools\clipboard\clipboard.html.py:28
+msgid "discard"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\admin\filer\tools\clipboard\clipboard.html.py:45
+#: .\django_admin_bootstrapped\templates\admin\filer\tools\clipboard\clipboard.html.py:45
+msgid "the clipboard is empty"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\registration\logged_out.html.py:9
+#: .\django_admin_bootstrapped\templates\registration\logged_out.html.py:9
+msgid "Thanks for spending some quality time with the Web site today."
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\registration\logged_out.html.py:11
+#: .\django_admin_bootstrapped\templates\registration\logged_out.html.py:11
+msgid "Log in again"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\registration\password_change_done.html.py:7
+#: .\django_admin_bootstrapped\bootstrap3\templates\registration\password_change_form.html.py:8
+#: .\django_admin_bootstrapped\bootstrap3\templates\registration\password_change_form.html.py:12
+#: .\django_admin_bootstrapped\bootstrap3\templates\registration\password_change_form.html.py:13
+#: .\django_admin_bootstrapped\templates\registration\password_change_done.html.py:7
+#: .\django_admin_bootstrapped\templates\registration\password_change_form.html.py:8
+#: .\django_admin_bootstrapped\templates\registration\password_change_form.html.py:12
+#: .\django_admin_bootstrapped\templates\registration\password_change_form.html.py:13
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_change.html.py:5
+msgid "Password change"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\registration\password_change_done.html.py:11
+#: .\django_admin_bootstrapped\bootstrap3\templates\registration\password_change_done.html.py:12
+#: .\django_admin_bootstrapped\templates\registration\password_change_done.html.py:11
+#: .\django_admin_bootstrapped\templates\registration\password_change_done.html.py:12
+msgid "Password change successful"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\registration\password_change_done.html.py:16
+#: .\django_admin_bootstrapped\templates\registration\password_change_done.html.py:16
+msgid "Your password was changed."
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\registration\password_change_form.html.py:24
+#: .\django_admin_bootstrapped\templates\registration\password_change_form.html.py:24
+msgid ""
+"Please enter your old password, for security's sake, and then enter your new "
+"password twice so we can verify you typed it in correctly."
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\registration\password_change_form.html.py:30
+#: .\django_admin_bootstrapped\templates\registration\password_change_form.html.py:30
+msgid "Old password"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\registration\password_change_form.html.py:40
+#: .\django_admin_bootstrapped\templates\registration\password_change_form.html.py:40
+msgid "New password"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\registration\password_change_form.html.py:62
+#: .\django_admin_bootstrapped\bootstrap3\templates\registration\password_reset_confirm.html.py:42
+#: .\django_admin_bootstrapped\templates\registration\password_change_form.html.py:61
+#: .\django_admin_bootstrapped\templates\registration\password_reset_confirm.html.py:42
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_reset_confirm.html.py:33
+msgid "Change my password"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\registration\password_reset_complete.html.py:7
+#: .\django_admin_bootstrapped\bootstrap3\templates\registration\password_reset_complete.html.py:11
+#: .\django_admin_bootstrapped\bootstrap3\templates\registration\password_reset_complete.html.py:12
+#: .\django_admin_bootstrapped\templates\registration\password_reset_complete.html.py:7
+#: .\django_admin_bootstrapped\templates\registration\password_reset_complete.html.py:11
+#: .\django_admin_bootstrapped\templates\registration\password_reset_complete.html.py:12
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_reset_complete.html.py:4
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_reset_complete.html.py:8
+#: .\utils\registration\templates\registration\password_reset_complete.html.py:3
+msgid "Password reset complete"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\registration\password_reset_complete.html.py:16
+#: .\django_admin_bootstrapped\templates\registration\password_reset_complete.html.py:16
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_reset_complete.html.py:10
+msgid "Your password has been set.  You may go ahead and log in now."
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\registration\password_reset_confirm.html.py:7
+#: .\django_admin_bootstrapped\templates\registration\password_reset_confirm.html.py:7
+msgid "Password reset confirmation"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\registration\password_reset_confirm.html.py:11
+#: .\django_admin_bootstrapped\bootstrap3\templates\registration\password_reset_confirm.html.py:12
+#: .\django_admin_bootstrapped\bootstrap3\templates\registration\password_reset_done.html.py:7
+#: .\django_admin_bootstrapped\bootstrap3\templates\registration\password_reset_form.html.py:7
+#: .\django_admin_bootstrapped\bootstrap3\templates\registration\password_reset_form.html.py:11
+#: .\django_admin_bootstrapped\bootstrap3\templates\registration\password_reset_form.html.py:12
+#: .\django_admin_bootstrapped\templates\registration\password_reset_confirm.html.py:11
+#: .\django_admin_bootstrapped\templates\registration\password_reset_confirm.html.py:12
+#: .\django_admin_bootstrapped\templates\registration\password_reset_done.html.py:7
+#: .\django_admin_bootstrapped\templates\registration\password_reset_form.html.py:7
+#: .\django_admin_bootstrapped\templates\registration\password_reset_form.html.py:11
+#: .\django_admin_bootstrapped\templates\registration\password_reset_form.html.py:12
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_reset_form.html.py:7
+#: .\utils\registration\templates\registration\password_reset_done.html.py:3
+msgid "Password reset"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\registration\password_reset_confirm.html.py:18
+#: .\django_admin_bootstrapped\templates\registration\password_reset_confirm.html.py:18
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_reset_confirm.html.py:10
+msgid "Enter new password"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\registration\password_reset_confirm.html.py:20
+#: .\django_admin_bootstrapped\templates\registration\password_reset_confirm.html.py:20
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_reset_confirm.html.py:12
+msgid ""
+"Please enter your new password twice so we can verify you typed it in "
+"correctly."
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\registration\password_reset_confirm.html.py:25
+#: .\django_admin_bootstrapped\templates\registration\password_reset_confirm.html.py:25
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_reset_confirm.html.py:18
+msgid "New password:"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\registration\password_reset_confirm.html.py:34
+#: .\django_admin_bootstrapped\templates\registration\password_reset_confirm.html.py:34
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_reset_confirm.html.py:25
+msgid "Confirm password:"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\registration\password_reset_confirm.html.py:48
+#: .\django_admin_bootstrapped\templates\registration\password_reset_confirm.html.py:48
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_reset_confirm.html.py:41
+msgid "Password reset unsuccessful"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\registration\password_reset_confirm.html.py:50
+#: .\django_admin_bootstrapped\templates\registration\password_reset_confirm.html.py:50
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_reset_confirm.html.py:43
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used.  Please request a new password reset."
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\registration\password_reset_done.html.py:11
+#: .\django_admin_bootstrapped\bootstrap3\templates\registration\password_reset_done.html.py:12
+#: .\django_admin_bootstrapped\templates\registration\password_reset_done.html.py:11
+#: .\django_admin_bootstrapped\templates\registration\password_reset_done.html.py:12
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_reset_done.html.py:4
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_reset_done.html.py:8
+msgid "Password reset successful"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\registration\password_reset_done.html.py:16
+#: .\django_admin_bootstrapped\templates\registration\password_reset_done.html.py:16
+msgid ""
+"We've emailed you instructions for setting your password to the email "
+"address you submitted. You should be receiving it shortly."
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\registration\password_reset_form.html.py:16
+#: .\django_admin_bootstrapped\templates\registration\password_reset_form.html.py:16
+msgid ""
+"Forgotten your password? Enter your email address below, and we'll email "
+"instructions for setting a new one."
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\registration\password_reset_form.html.py:21
+#: .\django_admin_bootstrapped\templates\registration\password_reset_form.html.py:21
+msgid "Email address:"
+msgstr ""
+
+#: .\django_admin_bootstrapped\bootstrap3\templates\registration\password_reset_form.html.py:30
+#: .\django_admin_bootstrapped\templates\registration\password_reset_form.html.py:30
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_reset_form.html.py:23
+msgid "Reset my password"
+msgstr ""
+
+#: .\django_comments\admin.py:26
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\add_post.html.py:73
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\add_topic.html.py:93
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\edit_post.html.py:20
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\post_list.html.py:200
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\topics_list.html.py:263
+#: .\zinnia\admin\entry.py:33
+#: .\zinnia\templates\admin\zinnia\widgets\quickpost.html.py:17
+msgid "Content"
+msgstr ""
+
+#: .\django_comments\admin.py:29
+msgid "Metadata"
+msgstr ""
+
+#: .\django_comments\admin.py:56
+msgid "flagged"
+msgid_plural "flagged"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\django_comments\admin.py:57
+msgid "Flag selected comments"
+msgstr ""
+
+#: .\django_comments\admin.py:61
+msgid "approved"
+msgid_plural "approved"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\django_comments\admin.py:62
+msgid "Approve selected comments"
+msgstr ""
+
+#: .\django_comments\admin.py:66
+msgid "removed"
+msgid_plural "removed"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\django_comments\admin.py:67
+msgid "Remove selected comments"
+msgstr ""
+
+#: .\django_comments\admin.py:79
+#, python-format
+msgid "1 comment was successfully %(action)s."
+msgid_plural "%(count)s comments were successfully %(action)s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\django_comments\feeds.py:15
+#, python-format
+msgid "%(site_name)s comments"
+msgstr ""
+
+#: .\django_comments\feeds.py:21
+#, python-format
+msgid "Latest comments on %(site_name)s"
+msgstr ""
+
+#: .\django_comments\forms.py:98
+msgid "Email address"
+msgstr ""
+
+#: .\django_comments\forms.py:99
+msgid "URL"
+msgstr ""
+
+#: .\django_comments\forms.py:100
+#: .\zinnia\templates\comments\comment_authors_email.txt.py:3
+#: .\zinnia\templates\comments\comment_notification_email.txt.py:5
+#: .\zinnia\templates\comments\comment_reply_email.txt.py:3
+msgid "Comment"
+msgstr ""
+
+#: .\django_comments\forms.py:178
+#, python-format
+msgid "Watch your mouth! The word %s is not allowed here."
+msgid_plural "Watch your mouth! The words %s are not allowed here."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\django_comments\forms.py:187
+msgid ""
+"If you enter anything in this field your comment will be treated as spam"
+msgstr ""
+
+#: .\django_comments\models.py:24 .\utils\tagging\models.py:485
+msgid "content type"
+msgstr ""
+
+#: .\django_comments\models.py:26
+msgid "object ID"
+msgstr ""
+
+#: .\django_comments\models.py:54 .\django_comments\models.py:178
+msgid "user"
+msgstr ""
+
+#: .\django_comments\models.py:56
+msgid "user's name"
+msgstr ""
+
+#: .\django_comments\models.py:57
+msgid "user's email address"
+msgstr ""
+
+#: .\django_comments\models.py:58
+msgid "user's URL"
+msgstr ""
+
+#: .\django_comments\models.py:60 .\django_comments\models.py:80
+#: .\django_comments\models.py:179
+#: .\zinnia\templates\zinnia\sitemap.html.py:20
+#: .\zinnia\templates\zinnia\sitemap.html.py:40
+msgid "comment"
+msgstr ""
+
+#: .\django_comments\models.py:63
+msgid "date/time submitted"
+msgstr ""
+
+#: .\django_comments\models.py:64
+msgid "IP address"
+msgstr ""
+
+#: .\django_comments\models.py:65
+msgid "is public"
+msgstr ""
+
+#: .\django_comments\models.py:66
+msgid ""
+"Uncheck this box to make the comment effectively disappear from the site."
+msgstr ""
+
+#: .\django_comments\models.py:68
+msgid "is removed"
+msgstr ""
+
+#: .\django_comments\models.py:69
+msgid ""
+"Check this box if the comment is inappropriate. A \"This comment has been "
+"removed\" message will be displayed instead."
+msgstr ""
+
+#: .\django_comments\models.py:81
+msgid "comments"
+msgstr ""
+
+#: .\django_comments\models.py:125
+msgid ""
+"This comment was posted by an authenticated user and thus the name is read-"
+"only."
+msgstr ""
+
+#: .\django_comments\models.py:135
+msgid ""
+"This comment was posted by an authenticated user and thus the email is read-"
+"only."
+msgstr ""
+
+#: .\django_comments\models.py:161
+#, python-format
+msgid ""
+"Posted by %(user)s at %(date)s\n"
+"\n"
+"%(comment)s\n"
+"\n"
+"http://%(domain)s%(url)s"
+msgstr ""
+
+#: .\django_comments\models.py:180
+msgid "flag"
+msgstr ""
+
+#: .\django_comments\models.py:181
+msgid "date"
+msgstr ""
+
+#: .\django_comments\models.py:191
+msgid "comment flag"
+msgstr ""
+
+#: .\django_comments\models.py:192
+msgid "comment flags"
+msgstr ""
+
+#: .\django_comments\templates\comments\approve.html.py:4
+msgid "Approve a comment"
+msgstr ""
+
+#: .\django_comments\templates\comments\approve.html.py:7
+msgid "Really make this comment public?"
+msgstr ""
+
+#: .\django_comments\templates\comments\approved.html.py:4
+msgid "Thanks for approving"
+msgstr ""
+
+#: .\django_comments\templates\comments\approved.html.py:7
+#: .\django_comments\templates\comments\deleted.html.py:7
+#: .\django_comments\templates\comments\flagged.html.py:7
+msgid ""
+"Thanks for taking the time to improve the quality of discussion on our site"
+msgstr ""
+
+#: .\django_comments\templates\comments\delete.html.py:4
+msgid "Remove a comment"
+msgstr ""
+
+#: .\django_comments\templates\comments\delete.html.py:7
+msgid "Really remove this comment?"
+msgstr ""
+
+#: .\django_comments\templates\comments\deleted.html.py:4
+msgid "Thanks for removing"
+msgstr ""
+
+#: .\django_comments\templates\comments\flag.html.py:4
+#: .\zinnia\templates\comments\comment_notification_email.txt.py:10
+msgid "Flag this comment"
+msgstr ""
+
+#: .\django_comments\templates\comments\flag.html.py:7
+msgid "Really flag this comment?"
+msgstr ""
+
+#: .\django_comments\templates\comments\flag.html.py:12
+msgid "Flag"
+msgstr ""
+
+#: .\django_comments\templates\comments\flagged.html.py:4
+msgid "Thanks for flagging"
+msgstr ""
+
+#: .\django_comments\templates\comments\form.html.py:17
+#: .\django_comments\templates\comments\preview.html.py:32
+#: .\forumapp\diamandas\myghtyboard\models.py:150
+#: .\zinnia\templates\comments\zinnia\entry\form.html.py:24
+msgid "Post"
+msgstr ""
+
+#: .\django_comments\templates\comments\posted.html.py:4
+msgid "Thanks for commenting"
+msgstr ""
+
+#: .\django_comments\templates\comments\posted.html.py:7
+msgid "Thank you for your comment"
+msgstr ""
+
+#: .\django_comments\templates\comments\preview.html.py:4
+#: .\django_comments\templates\comments\preview.html.py:13
+msgid "Preview your comment"
+msgstr ""
+
+#: .\django_comments\templates\comments\preview.html.py:11
+msgid "Please correct the error below"
+msgid_plural "Please correct the errors below"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\django_comments\templates\comments\preview.html.py:16
+#: .\zinnia\templates\comments\zinnia\entry\form.html.py:5
+msgid "Post your comment"
+msgstr ""
+
+#: .\django_comments\templates\comments\preview.html.py:16
+msgid "or make changes"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\admin.py:13
+msgid "Data"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\admin.py:16
+msgid "Stats"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\back_ofview_add_edit.py:52
+#: .\forumapp\diamandas\myghtyboard\back_ofview_add_edit.py:185
+#: .\forumapp\diamandas\myghtyboard\views_add_edit.py:51
+#: .\forumapp\diamandas\myghtyboard\views_add_edit.py:181
+msgid "To many links. Is this spam?."
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\back_ofview_add_edit.py:79
+#: .\forumapp\diamandas\myghtyboard\back_ofview_add_edit.py:80
+#: .\forumapp\diamandas\myghtyboard\back_ofview_add_edit.py:81
+#: .\forumapp\diamandas\myghtyboard\back_ofview_add_edit.py:198
+#: .\forumapp\diamandas\myghtyboard\back_ofview_add_edit.py:199
+#: .\forumapp\diamandas\myghtyboard\forms.py:14
+#: .\forumapp\diamandas\myghtyboard\forms.py:20
+#: .\forumapp\diamandas\myghtyboard\forms.py:27
+#: .\forumapp\diamandas\myghtyboard\forms.py:32
+#: .\forumapp\diamandas\myghtyboard\views_add_edit.py:78
+#: .\forumapp\diamandas\myghtyboard\views_add_edit.py:79
+#: .\forumapp\diamandas\myghtyboard\views_add_edit.py:80
+#: .\forumapp\diamandas\myghtyboard\views_add_edit.py:194
+#: .\forumapp\diamandas\myghtyboard\views_add_edit.py:195
+msgid "Anonymous"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\back_ofview_add_edit.py:124
+#: .\forumapp\diamandas\myghtyboard\views_add_edit.py:120
+msgid "Topic Added"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\back_ofview_add_edit.py:124
+#: .\forumapp\diamandas\myghtyboard\views_add_edit.py:120
+msgid "Topic added"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\back_ofview_add_edit.py:126
+#: .\forumapp\diamandas\myghtyboard\views_add_edit.py:122
+msgid "Topic added succesfuly."
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\back_ofview_add_edit.py:171
+#: .\forumapp\diamandas\myghtyboard\views_add_edit.py:167
+msgid "You can't post after your post"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\back_ofview_add_edit.py:252
+#: .\forumapp\diamandas\myghtyboard\back_ofview_add_edit.py:253
+#: .\forumapp\diamandas\myghtyboard\views_add_edit.py:245
+#: .\forumapp\diamandas\myghtyboard\views_add_edit.py:246
+msgid "Post Added"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\back_ofview_add_edit.py:257
+#: .\forumapp\diamandas\myghtyboard\views_add_edit.py:250
+msgid "Post added succesfuly."
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\back_ofview_add_edit.py:266
+#: .\forumapp\diamandas\myghtyboard\views_add_edit.py:259
+msgid " wrote"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\back_ofview_add_edit.py:310
+#: .\forumapp\diamandas\myghtyboard\views_add_edit.py:303
+msgid "Post edited succesfuly."
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\models.py:17
+msgid "Category Name"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\models.py:18
+msgid "Order"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\models.py:20
+#: .\zinnia\templates\zinnia\entry_list.html.py:21
+msgid "Category"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\models.py:21
+msgid "1. Categories"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\models.py:32
+msgid "Forum Category"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\models.py:33
+msgid "Forum Name"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\models.py:34
+msgid "Forum Description"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\models.py:35
+#: .\forumapp\diamandas\myghtyboard\models.py:94
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\category_list.html.py:34
+msgid "Topics"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\models.py:36
+#: .\forumapp\diamandas\myghtyboard\models.py:83
+#: .\forumapp\diamandas\myghtyboard\models.py:151
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\category_list.html.py:35
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\mytopics_list.html.py:20
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\topics_list.html.py:94
+msgid "Posts"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\models.py:37
+#: .\forumapp\diamandas\myghtyboard\models.py:84
+msgid "Last Poster"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\models.py:38
+msgid "Last Topic"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\models.py:41
+msgid "Use prefixes"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\models.py:42
+msgid "Allow anonymous to post"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\models.py:43
+msgid "Use moderators"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\models.py:44
+msgid "Moderators"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\models.py:45
+msgid ""
+"Select non-staff users that should be moderators of this forum (optional)."
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\models.py:48
+#: .\forumapp\diamandas\myghtyboard\models.py:77
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\post_list.html.py:12
+#: .\templates\weixin\index.html.py:14
+msgid "Forum"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\models.py:49
+msgid "2. Forums"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\models.py:67
+msgid "No prefixes specified"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\models.py:69
+msgid "Not used"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\models.py:71
+#: .\forumapp\diamandas\myghtyboard\models.py:79
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\add_topic.html.py:76
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\topics_list.html.py:243
+msgid "Prefixes"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\models.py:78
+msgid "Topic Title"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\models.py:80
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\mytopics_list.html.py:19
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\topics_list.html.py:95
+#: .\zinnia\templates\comments\comment_authors_email.txt.py:1
+#: .\zinnia\templates\comments\comment_notification_email.txt.py:1
+#: .\zinnia\templates\comments\comment_reply_email.txt.py:1
+#: .\zinnia\templates\zinnia\entry_list.html.py:21
+msgid "Author"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\models.py:86
+msgid "Pagination Page"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\models.py:93
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\mytopics_list.html.py:18
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\topics_list.html.py:93
+msgid "Topic"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\models.py:110
+#: .\forumapp\diamandas\myghtyboard\models.py:127
+msgid "Forums"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\models.py:112
+msgid "Topic Prefix"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\models.py:113
+msgid "3. Topic Prefixes"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\models.py:154
+msgid "This is a discussion about article"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\permshelpers.py:16
+msgid "You can't add a topic."
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\permshelpers.py:21
+#: .\forumapp\diamandas\myghtyboard\permshelpers.py:35
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\post_list.html.py:233
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\topics_list.html.py:308
+msgid "To many anonymous posts. Login to post topics and new messages."
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\permshelpers.py:30
+msgid "You can't add a post."
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\permshelpers.py:39
+#: .\forumapp\diamandas\myghtyboard\permshelpers.py:51
+msgid "Topic is closed"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\permshelpers.py:46
+msgid "You can't edit a post."
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\views.py:79
+msgid "There is no such forum. Please go back to the forum list."
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\views.py:139
+msgid "User Topics"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\views.py:158
+#: .\forumapp\diamandas\myghtyboard\templates\body.html.py:22
+msgid "Last Active Topics"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\views.py:186
+msgid "User Posts in Latest Topics"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\views_actions.py:35
+msgid "Post deleted succesfuly."
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\views_actions.py:39
+#: .\forumapp\diamandas\myghtyboard\views_actions.py:65
+msgid "Topic deleted succesfuly."
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\views_actions.py:41
+#: .\forumapp\diamandas\myghtyboard\views_actions.py:67
+#: .\forumapp\diamandas\myghtyboard\views_actions.py:110
+#: .\forumapp\diamandas\myghtyboard\views_actions.py:131
+msgid "You aren't a moderator"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\views_actions.py:58
+msgid "Invalid Forum/Topic"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\views_actions.py:90
+msgid "Topic Moved"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\views_actions.py:95
+msgid "This topic has been moved to another forum. To see the topic follow"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\views_actions.py:96
+msgid "this link"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\views_actions.py:97
+msgid "Forum Staff"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\views_actions.py:100
+msgid "Topic moved succesfuly."
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\views_actions.py:129
+msgid "Topic closed succesfuly."
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\views_actions.py:148
+msgid "Topic opened succesfuly."
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\views_actions.py:151
+msgid "You aren't a moderator and you aren't logged in"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\views_actions.py:169
+msgid "Topic solved."
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\views_actions.py:172
+#: .\forumapp\diamandas\myghtyboard\views_actions.py:193
+msgid "You aren't a moderator or topic author and you aren't logged in"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\views_actions.py:190
+msgid "Topic unsolved."
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\body.html.py:19
+msgid "Back to Forum"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\body.html.py:25
+msgid "My Topics"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\body.html.py:28
+msgid "My Posts"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\bug.html.py:5
+msgid "You can go to"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\bug.html.py:5
+msgid "main page"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\bug.html.py:5
+msgid "or login on this website using"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\bug.html.py:5
+msgid "login form"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\msg.html.py:10
+msgid "You will be redirected back in 2 seconds."
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\msg.html.py:10
+msgid "Click here if you don't want to wait"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\add_post.html.py:10
+msgid "Add Post:"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\add_post.html.py:52
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\add_topic.html.py:9
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\category_list.html.py:18
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\edit_post.html.py:10
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\move_topic.html.py:9
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\mytopics_list.html.py:10
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\post_list.html.py:89
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\topics_list.html.py:83
+msgid "Forum Index"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\add_post.html.py:60
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\post_list.html.py:173
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\post_list.html.py:182
+msgid "Add New Post"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\add_post.html.py:66
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\add_topic.html.py:86
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\post_list.html.py:192
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\topics_list.html.py:255
+msgid "Nick"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\add_post.html.py:77
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\add_topic.html.py:97
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\edit_post.html.py:26
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\post_list.html.py:204
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\topics_list.html.py:267
+msgid "Available Tags"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\add_post.html.py:78
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\add_topic.html.py:98
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\post_list.html.py:205
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\topics_list.html.py:268
+msgid "Use <b>[code] or [python], [php]</b> for code and config text pasting."
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\add_post.html.py:94
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\post_list.html.py:223
+msgid "Add post"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\add_post.html.py:101
+msgid "Last 10 posts from topic"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\add_topic.html.py:53
+msgid "Add Topic:"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\add_topic.html.py:62
+msgid "Add new topic"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\add_topic.html.py:67
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\topics_list.html.py:235
+#: .\zinnia\templates\admin\zinnia\widgets\quickpost.html.py:9
+msgid "Title"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\add_topic.html.py:103
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\topics_list.html.py:274
+#: .\zinnia\admin\entry.py:35
+msgid "Options"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\add_topic.html.py:105
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\topics_list.html.py:276
+msgid "Sticky"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\add_topic.html.py:106
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\topics_list.html.py:277
+msgid "Global"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\add_topic.html.py:125
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\topics_list.html.py:299
+msgid "Add Topic"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\category_list.html.py:7
+msgid "Discussion Forum"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\category_list.html.py:36
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\mytopics_list.html.py:21
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\topics_list.html.py:96
+msgid "Last Post"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\category_list.html.py:50
+msgid "No topics in this forum"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\category_list.html.py:58
+msgid "New posts"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\category_list.html.py:59
+msgid "No new posts"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\edit_post.html.py:18
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\edit_post.html.py:31
+msgid "Edit post"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\move_topic.html.py:16
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\move_topic.html.py:25
+msgid "Move Topic"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\move_topic.html.py:17
+msgid "Select a forum to which the topic "
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\move_topic.html.py:17
+msgid "should be moved"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\post_list.html.py:12
+msgid "Discussion:"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\post_list.html.py:110
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\topics_list.html.py:147
+msgid "Unsolve Topic"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\post_list.html.py:112
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\topics_list.html.py:149
+msgid "Mark as solved"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\post_list.html.py:117
+msgid "Reply with quote"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\post_list.html.py:123
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\post_list.html.py:128
+msgid "Edit this post"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\post_list.html.py:132
+msgid "Delete This Post?"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\post_list.html.py:132
+msgid "Delete this post"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\post_list.html.py:229
+msgid "Login to reply"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\topics_list.html.py:10
+msgid "Topics from"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\topics_list.html.py:103
+msgid "Filter topics"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\topics_list.html.py:113
+msgid "Clear"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\topics_list.html.py:142
+msgid "Solved"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\topics_list.html.py:153
+msgid "Delete this Topic and all Posts?"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\topics_list.html.py:155
+msgid "Open This Topic?"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\topics_list.html.py:155
+msgid "Unlock"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\topics_list.html.py:157
+msgid "Close This Topic?"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\topics_list.html.py:157
+msgid "Lock"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\topics_list.html.py:160
+msgid "Move"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\topics_list.html.py:208
+msgid "Login to start a topic"
+msgstr ""
+
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\topics_list.html.py:215
+#: .\forumapp\diamandas\myghtyboard\templates\myghtyboard\topics_list.html.py:224
+msgid "Add New Topic"
+msgstr ""
+
+#: .\forumapp\diamandas\recaptchawidget\fields.py:11
+#: .\libs\djangocaptcha\fields.py:39
+msgid "Invalid captcha"
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\forms.py:32
+#: .\forumapp\diamandas\userpanel\views.py:91
+#: .\forumapp\diamandas\userpanel\views.py:92
+msgid "Passwords do not match."
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\forms.py:39
+#: .\forumapp\diamandas\userpanel\views.py:87
+#: .\forumapp\diamandas\userpanel\views.py:88
+msgid "Login already taken"
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\forms.py:46
+#: .\forumapp\diamandas\userpanel\views.py:89
+#: .\forumapp\diamandas\userpanel\views.py:90
+msgid "Email already taken"
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\forms.py:58
+#: .\forumapp\diamandas\userpanel\templates\userpanel\login.html.py:29
+#: .\forumapp\diamandas\userpanel\templates\userpanel\login.html.py:40
+msgid "Username"
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\views.py:81
+msgid "Registration compleated. You have been logged in succesfuly."
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\views.py:85
+#: .\forumapp\diamandas\userpanel\views.py:86
+msgid "Incorrect answer"
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\views.py:94
+msgid "Invalid captcha."
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\templates\userpanel\edit_user_data.html.py:5
+msgid "User data edit"
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\templates\userpanel\edit_user_data.html.py:14
+msgid "Edit your data"
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\templates\userpanel\edit_user_data.html.py:21
+#: .\forumapp\diamandas\userpanel\templates\userpanel\register.html.py:101
+#: .\zinnia\templates\comments\comment_notification_email.txt.py:2
+msgid "Email"
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\templates\userpanel\edit_user_data.html.py:29
+msgid "Save Changes"
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\templates\userpanel\edit_user_data.html.py:36
+#: .\forumapp\diamandas\userpanel\templates\userpanel\login.html.py:60
+#: .\forumapp\diamandas\userpanel\templates\userpanel\panel.html.py:126
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_change.html.py:62
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_change_done.html.py:19
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_reset_complete.html.py:15
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_reset_confirm.html.py:48
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_reset_done.html.py:13
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_reset_form.html.py:31
+#: .\forumapp\diamandas\userpanel\templates\userpanel\register.html.py:133
+msgid "User Panel"
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\templates\userpanel\login.html.py:5
+#: .\forumapp\diamandas\userpanel\templates\userpanel\login.html.py:47
+#: .\forumapp\diamandas\userpanel\templates\userpanel\panel.html.py:82
+#: .\forumapp\diamandas\userpanel\templates\userpanel\register.html.py:80
+#: .\utils\registration\templates\registration\login.html.py:3
+#: .\zinnia\templates\zinnia\login.html.py:34
+msgid "Login"
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\templates\userpanel\login.html.py:11
+msgid ""
+"As a registered user you will have full access to comments and forum. "
+"Registration isn't however required to browse this site content."
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\templates\userpanel\login.html.py:14
+msgid "If you are a new user you can"
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\templates\userpanel\login.html.py:14
+msgid "register"
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\templates\userpanel\login.html.py:14
+msgid "using a simple form"
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\templates\userpanel\login.html.py:15
+msgid "If you forgotten your password, then you can"
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\templates\userpanel\login.html.py:15
+msgid "reset it"
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\templates\userpanel\login.html.py:19
+#: .\utils\registration\templates\registration\login.html.py:9
+#: .\zinnia\templates\zinnia\login.html.py:13
+msgid "Your username and password didn't match. Please try again."
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\templates\userpanel\login.html.py:24
+msgid "Standard login"
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\templates\userpanel\panel.html.py:5
+msgid "panel"
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\templates\userpanel\panel.html.py:14
+msgid "User Profile"
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\templates\userpanel\panel.html.py:25
+msgid "Logout"
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\templates\userpanel\panel.html.py:36
+msgid "Edit Profile"
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\templates\userpanel\panel.html.py:47
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_change.html.py:13
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_change.html.py:55
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_change_done.html.py:11
+msgid "Change Password"
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\templates\userpanel\panel.html.py:58
+#: .\forumapp\diamandas\userpanel\templates\userpanel\panel.html.py:116
+msgid "Contact Site Admin"
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\templates\userpanel\panel.html.py:68
+msgid "OpenIDs for this user account"
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\templates\userpanel\panel.html.py:71
+msgid "remove openID"
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\templates\userpanel\panel.html.py:93
+#: .\forumapp\diamandas\userpanel\templates\userpanel\register.html.py:7
+#: .\forumapp\diamandas\userpanel\templates\userpanel\register.html.py:75
+#: .\forumapp\diamandas\userpanel\templates\userpanel\register.html.py:120
+msgid "Register"
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\templates\userpanel\panel.html.py:104
+msgid "Lost Password"
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_change.html.py:20
+msgid ""
+"There was a problem with password change. Did you entered correct current "
+"password?"
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_change.html.py:26
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_change.html.py:40
+msgid "Current Password"
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_change.html.py:33
+msgid "New Password"
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_change.html.py:47
+msgid "New Password again"
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_change_done.html.py:5
+msgid "Password change done"
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_change_done.html.py:17
+msgid "Password have been changed succesfuly"
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_change_done.html.py:17
+msgid "Go to Main Page"
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_reset_confirm.html.py:4
+msgid "Password reset confirm"
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_reset_done.html.py:10
+msgid ""
+"We've e-mailed you instructions for setting your password to the e-mail "
+"address you submitted. You should be receiving it shortly."
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_reset_email.html.py:2
+msgid "You're receiving this e-mail because you requested a password reset"
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_reset_email.html.py:3
+#, python-format
+msgid "for your user account at %(site_name)s"
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_reset_email.html.py:5
+msgid "Please go to the following page and choose a new password:"
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_reset_email.html.py:9
+msgid "Your username, in case you've forgotten:"
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_reset_email.html.py:11
+msgid "Thanks for using our site!"
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_reset_email.html.py:13
+#, python-format
+msgid "The %(site_name)s team"
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_reset_form.html.py:3
+msgid "Password reset form"
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_reset_form.html.py:9
+msgid ""
+"Forgotten your password? Enter your e-mail address below, and we'll e-mail "
+"instructions for setting a new one."
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\templates\userpanel\password_reset_form.html.py:15
+msgid "E-mail address:"
+msgstr ""
+
+#: .\forumapp\diamandas\userpanel\templates\userpanel\register.html.py:94
+msgid "Password Again"
+msgstr ""
+
+#: .\templates\header.html.py:51
+msgid "Submit"
+msgstr ""
+
+#: .\templates\weixin\index.html.py:4
+msgid "Main page"
+msgstr ""
+
+#: .\templates\weixin\index.html.py:10
+msgid "Hello, world!"
+msgstr ""
+
+#: .\templates\weixin\index.html.py:11 .\zinnia\models\category.py:28
+msgid "description"
+msgstr ""
+
+#: .\templates\weixin\index.html.py:15
+msgid "Blog"
+msgstr ""
+
+#: .\templates\weixin\index.html.py:16
+msgid "Store"
+msgstr ""
+
+#: .\utils\mptt\admin.py:105 .\utils\mptt\admin.py:107
+msgid "Add child"
+msgstr ""
+
+#: .\utils\mptt\admin.py:127
+#, python-format
+msgid "Successfully deleted %s items."
+msgstr ""
+
+#: .\utils\mptt\admin.py:132
+#, python-format
+msgid "Delete selected %(verbose_name_plural)s"
+msgstr ""
+
+#: .\utils\mptt\forms.py:62
+msgid "First child"
+msgstr ""
+
+#: .\utils\mptt\forms.py:63
+msgid "Last child"
+msgstr ""
+
+#: .\utils\mptt\forms.py:64
+msgid "Left sibling"
+msgstr ""
+
+#: .\utils\mptt\forms.py:65
+msgid "Right sibling"
+msgstr ""
+
+#: .\utils\mptt\forms.py:182
+msgid "Invalid parent"
+msgstr ""
+
+#: .\utils\mptt\managers.py:366
+msgid "Cannot insert a node which has already been saved."
+msgstr ""
+
+#: .\utils\mptt\managers.py:574 .\utils\mptt\managers.py:747
+#: .\utils\mptt\managers.py:783 .\utils\mptt\managers.py:947
+#, python-format
+msgid "An invalid position was given: %s."
+msgstr ""
+
+#: .\utils\mptt\managers.py:733 .\utils\mptt\managers.py:927
+msgid "A node may not be made a sibling of itself."
+msgstr ""
+
+#: .\utils\mptt\managers.py:906 .\utils\mptt\managers.py:1031
+msgid "A node may not be made a child of itself."
+msgstr ""
+
+#: .\utils\mptt\managers.py:908 .\utils\mptt\managers.py:1033
+msgid "A node may not be made a child of any of its descendants."
+msgstr ""
+
+#: .\utils\mptt\managers.py:929
+msgid "A node may not be made a sibling of any of its descendants."
+msgstr ""
+
+#: .\utils\mptt\models.py:271
+msgid "register() expects a Django model class argument"
+msgstr ""
+
+#: .\utils\mptt\templatetags\mptt_tags.py:32
+#, python-format
+msgid "full_tree_for_model tag was given an invalid model: %s"
+msgstr ""
+
+#: .\utils\mptt\templatetags\mptt_tags.py:56
+#, python-format
+msgid "drilldown_tree_for_node tag was given an invalid model: %s"
+msgstr ""
+
+#: .\utils\mptt\templatetags\mptt_tags.py:63
+#, python-format
+msgid "drilldown_tree_for_node tag was given an invalid model field: %s"
+msgstr ""
+
+#: .\utils\mptt\templatetags\mptt_tags.py:90
+#, python-format
+msgid "%s tag requires three arguments"
+msgstr ""
+
+#: .\utils\mptt\templatetags\mptt_tags.py:92
+#: .\utils\mptt\templatetags\mptt_tags.py:147
+#: .\utils\tagging\templatetags\tagging_tags.py:97
+#: .\utils\tagging\templatetags\tagging_tags.py:150
+#: .\utils\tagging\templatetags\tagging_tags.py:206
+#, python-format
+msgid "second argument to %s tag must be 'as'"
+msgstr ""
+
+#: .\utils\mptt\templatetags\mptt_tags.py:144
+#, python-format
+msgid "%s tag requires either three, seven or eight arguments"
+msgstr ""
+
+#: .\utils\mptt\templatetags\mptt_tags.py:151
+#, python-format
+msgid "if seven arguments are given, fourth argument to %s tag must be 'with'"
+msgstr ""
+
+#: .\utils\mptt\templatetags\mptt_tags.py:154
+#, python-format
+msgid "if seven arguments are given, sixth argument to %s tag must be 'in'"
+msgstr ""
+
+#: .\utils\mptt\templatetags\mptt_tags.py:159
+#, python-format
+msgid ""
+"if eight arguments are given, fourth argument to %s tag must be 'cumulative'"
+msgstr ""
+
+#: .\utils\mptt\templatetags\mptt_tags.py:162
+#, python-format
+msgid "if eight arguments are given, fifth argument to %s tag must be 'count'"
+msgstr ""
+
+#: .\utils\mptt\templatetags\mptt_tags.py:165
+#, python-format
+msgid "if eight arguments are given, seventh argument to %s tag must be 'in'"
+msgstr ""
+
+#: .\utils\mptt\templatetags\mptt_tags.py:268
+#, python-format
+msgid "Node %s not in depth-first order"
+msgstr ""
+
+#: .\utils\mptt\templatetags\mptt_tags.py:345
+#, python-format
+msgid "%s tag requires a queryset"
+msgstr ""
+
+#: .\utils\registration\templates\registration\activate.html.py:3
+#: .\utils\registration\templates\registration\activation_complete.html.py:3
+msgid "Activation complete"
+msgstr ""
+
+#: .\utils\registration\templates\registration\activate.html.py:3
+msgid "Activation problem"
+msgstr ""
+
+#: .\utils\registration\templates\registration\activate.html.py:7
+#, python-format
+msgid ""
+"\n"
+"Thanks %(account)s, activation complete!\n"
+"You may now <a href='%(auth_login_url)s'>login</a> using the username and "
+"password you set at registration.\n"
+msgstr ""
+
+#: .\utils\registration\templates\registration\activate.html.py:12
+msgid ""
+"Oops &ndash; it seems that your activation key is invalid.  Please check the "
+"url again."
+msgstr ""
+
+#: .\utils\registration\templates\registration\activation_complete.html.py:6
+#, python-format
+msgid ""
+"\n"
+"Thanks, activation complete!  You may now <a href='%(auth_login_url)"
+"s'>login</a> using the username and password you set at registration.\n"
+msgstr ""
+
+#: .\utils\registration\templates\registration\activation_email.html.py:8
+#, python-format
+msgid ""
+"<body>\n"
+"<h3>Account registration for %(sitename)s</h3>\n"
+"<p>\n"
+"You (or someone pretending to be you) have asked to register an account at\n"
+"<b>%(sitename)s</b>.<br/>\n"
+"If this wasn't you, please ignore this email and your address will be "
+"removed\n"
+"from our records.\n"
+"</p>\n"
+"<p>\n"
+"To activate this account, please click the following link within the next \n"
+"<b>%(expiration_days)s</b> days:<br/>\n"
+"<a href=\"http://%(sitedomain)s%(activation_key_url)s\">http://%(sitedomain)s"
+"%(activation_key_url)s</a>\n"
+"</p>\n"
+"<p>\n"
+"Sincerely,<br/>\n"
+"%(sitename)s Management\n"
+"</p>\n"
+"</body>\n"
+msgstr ""
+
+#: .\utils\registration\templates\registration\activation_email.txt.py:3
+#, python-format
+msgid ""
+"\n"
+"You (or someone pretending to be you) have asked to register an account at\n"
+"%(sitename)s.  If this wasn't you, please ignore this email\n"
+"and your address will be removed from our records.\n"
+"\n"
+"To activate this account, please click the following link within the next \n"
+"%(expiration_days)s days:\n"
+"\n"
+"http://%(siteurl)s%(activation_key_url)s\n"
+"\n"
+"Sincerely,\n"
+"%(sitename)s Management\n"
+msgstr ""
+
+#: .\utils\registration\templates\registration\activation_email_subject.txt.py:1
+#, python-format
+msgid "Account registration for %(sitename)s"
+msgstr ""
+
+#: .\utils\registration\templates\registration\login.html.py:23
+#, python-format
+msgid ""
+"<a href=\"%(auth_pwd_reset_url)s\">Forgot</a> your password?\n"
+"    <a href=\"%(register_url)s\">Need an account</a>?"
+msgstr ""
+
+#: .\utils\registration\templates\registration\login.html.py:26
+msgid "login"
+msgstr ""
+
+#: .\utils\registration\templates\registration\logout.html.py:3
+msgid "Logged out"
+msgstr ""
+
+#: .\utils\registration\templates\registration\logout.html.py:5
+msgid "Successfully logged out!"
+msgstr ""
+
+#: .\utils\registration\templates\registration\password_change_done.html.py:3
+msgid "Password changed"
+msgstr ""
+
+#: .\utils\registration\templates\registration\password_change_done.html.py:5
+msgid "Password successfully changed!"
+msgstr ""
+
+#: .\utils\registration\templates\registration\password_reset_complete.html.py:4
+#, python-format
+msgid ""
+"\n"
+"Your password has been reset!  You may now <a href=\"%(login_url)s\">log in</"
+"a>.\n"
+msgstr ""
+
+#: .\utils\registration\templates\registration\password_reset_confirm.html.py:3
+msgid "Confirm password reset"
+msgstr ""
+
+#: .\utils\registration\templates\registration\password_reset_confirm.html.py:5
+msgid "Enter your new password below to reset your password:"
+msgstr ""
+
+#: .\utils\registration\templates\registration\password_reset_confirm.html.py:9
+msgid "Set password"
+msgstr ""
+
+#: .\utils\registration\templates\registration\password_reset_done.html.py:6
+msgid ""
+"We have sent you an email with a link to reset your password.\n"
+"Please check your email and click the link to continue."
+msgstr ""
+
+#: .\utils\registration\templates\registration\password_reset_email.html.py:1
+msgid "Greetings"
+msgstr ""
+
+#: .\utils\registration\templates\registration\password_reset_email.html.py:3
+#, python-format
+msgid ""
+"You are receiving this email because you (or someone pretending to be you)\n"
+"requested that your password be reset on the %(domain)s site.  If you do "
+"not \n"
+"wish to reset your password, please ignore this message.\n"
+"\n"
+"To reset your password, please click the following link, or copy and paste "
+"it\n"
+"into your web browser:"
+msgstr ""
+
+#: .\utils\registration\templates\registration\password_reset_email.html.py:12
+#, python-format
+msgid ""
+"\n"
+"Your username, in case you've forgotten: %(username)s\n"
+"\n"
+"Best regards,\n"
+"%(site_name)s Management\n"
+msgstr ""
+
+#: .\utils\registration\templates\registration\password_reset_form.html.py:3
+#: .\utils\registration\templates\registration\password_reset_form.html.py:10
+msgid "Reset password"
+msgstr ""
+
+#: .\utils\registration\templates\registration\password_reset_form.html.py:4
+msgid ""
+"\n"
+"Forgot your password?  Enter your email in the form below and we'll send "
+"you\n"
+"instructions for creating a new one."
+msgstr ""
+
+#: .\utils\registration\templates\registration\registration_complete.html.py:3
+msgid "Activation email sent"
+msgstr ""
+
+#: .\utils\registration\templates\registration\registration_complete.html.py:5
+msgid ""
+"An activation email has been sent.\n"
+"Please check your email and click on the link to activate your account."
+msgstr ""
+
+#: .\utils\registration\templates\registration\registration_form.html.py:3
+msgid "Register for an account"
+msgstr ""
+
+#: .\utils\registration\templates\registration\registration_form.html.py:8
+msgid "Send activation email"
+msgstr ""
+
+#: .\utils\tagging\fields.py:70
+#, python-format
+msgid "%s can only be set on instances."
+msgstr ""
+
+#: .\utils\tagging\forms.py:21
+msgid "Multiple tags were given."
+msgstr ""
+
+#: .\utils\tagging\forms.py:24
+#, python-format
+msgid "A tag may be no more than %s characters long."
+msgstr ""
+
+#: .\utils\tagging\forms.py:41
+#, python-format
+msgid "Each tag may be no more than %s characters long."
+msgstr ""
+
+#: .\utils\tagging\models.py:59
+#, python-format
+msgid "No tags were given: \"%s\"."
+msgstr ""
+
+#: .\utils\tagging\models.py:61
+#, python-format
+msgid "Multiple tags were given: \"%s\"."
+msgstr ""
+
+#: .\utils\tagging\models.py:466
+msgid "name"
+msgstr ""
+
+#: .\utils\tagging\models.py:472 .\utils\tagging\models.py:484
+msgid "tag"
+msgstr ""
+
+#: .\utils\tagging\models.py:473 .\zinnia\models_bases\entry.py:413
+msgid "tags"
+msgstr ""
+
+#: .\utils\tagging\models.py:486
+msgid "object id"
+msgstr ""
+
+#: .\utils\tagging\models.py:494
+msgid "tagged item"
+msgstr ""
+
+#: .\utils\tagging\models.py:495
+msgid "tagged items"
+msgstr ""
+
+#: .\utils\tagging\utils.py:191
+msgid ""
+"If a list or tuple of tags is provided, they must all be tag names, Tag "
+"objects or Tag ids."
+msgstr ""
+
+#: .\utils\tagging\utils.py:193
+msgid "The tag input given was invalid."
+msgstr ""
+
+#: .\utils\tagging\utils.py:238
+#, python-format
+msgid "Invalid distribution algorithm specified: %s."
+msgstr ""
+
+#: .\utils\tagging\views.py:34
+msgid "tagged_object_list must be called with a queryset or a model."
+msgstr ""
+
+#: .\utils\tagging\views.py:40
+msgid "tagged_object_list must be called with a tag."
+msgstr ""
+
+#: .\utils\tagging\views.py:44 .\zinnia\views\tags.py:48
+#, python-format
+msgid "No Tag found matching \"%s\"."
+msgstr ""
+
+#: .\utils\tagging\templatetags\tagging_tags.py:21
+#, python-format
+msgid "tags_for_model tag was given an invalid model: %s"
+msgstr ""
+
+#: .\utils\tagging\templatetags\tagging_tags.py:35
+#, python-format
+msgid "tag_cloud_for_model tag was given an invalid model: %s"
+msgstr ""
+
+#: .\utils\tagging\templatetags\tagging_tags.py:61
+#, python-format
+msgid "tagged_objects tag was given an invalid model: %s"
+msgstr ""
+
+#: .\utils\tagging\templatetags\tagging_tags.py:95
+#, python-format
+msgid "%s tag requires either three or five arguments"
+msgstr ""
+
+#: .\utils\tagging\templatetags\tagging_tags.py:100
+#: .\utils\tagging\templatetags\tagging_tags.py:154
+#, python-format
+msgid "if given, fourth argument to %s tag must be 'with'"
+msgstr ""
+
+#: .\utils\tagging\templatetags\tagging_tags.py:102
+#, python-format
+msgid "if given, fifth argument to %s tag must be 'counts'"
+msgstr ""
+
+#: .\utils\tagging\templatetags\tagging_tags.py:148
+#, python-format
+msgid "%s tag requires either three or between five and seven arguments"
+msgstr ""
+
+#: .\utils\tagging\templatetags\tagging_tags.py:162
+#, python-format
+msgid "%(tag)s tag's '%(option)s' option was not a valid integer: '%(value)s'"
+msgstr ""
+
+#: .\utils\tagging\templatetags\tagging_tags.py:171
+#, python-format
+msgid "%(tag)s tag's '%(option)s' option was not a valid choice: '%(value)s'"
+msgstr ""
+
+#: .\utils\tagging\templatetags\tagging_tags.py:177
+#, python-format
+msgid "%(tag)s tag was given an invalid option: '%(option)s'"
+msgstr ""
+
+#: .\utils\tagging\templatetags\tagging_tags.py:182
+#, python-format
+msgid "%(tag)s tag was given a badly formatted option: '%(option)s'"
+msgstr ""
+
+#: .\utils\tagging\templatetags\tagging_tags.py:204
+#, python-format
+msgid "%s tag requires exactly three arguments"
+msgstr ""
+
+#: .\utils\tagging\templatetags\tagging_tags.py:230
+#, python-format
+msgid "%s tag requires exactly five arguments"
+msgstr ""
+
+#: .\utils\tagging\templatetags\tagging_tags.py:232
+#, python-format
+msgid "second argument to %s tag must be 'in'"
+msgstr ""
+
+#: .\utils\tagging\templatetags\tagging_tags.py:234
+#, python-format
+msgid "fourth argument to %s tag must be 'as'"
+msgstr ""
+
+#: .\utils\xmlrpc\decorators.py:63
+msgid "Username and/or password is incorrect"
+msgstr ""
+
+#: .\utils\xmlrpc\decorators.py:71 .\zinnia\templates\403.html.py:10
+#: .\zinnia\templates\403.html.py:15
+msgid "Permission denied"
+msgstr ""
+
+#: .\utils\xmlrpc\templates\xmlrpc_get.html.py:4
+#: .\utils\xmlrpc\templates\xmlrpc_get.html.py:7
+msgid "XML-RPC Service"
+msgstr ""
+
+#: .\utils\xmlrpc\templates\xmlrpc_get.html.py:9
+msgid "You need to invoke this service using an XML-RPC Client."
+msgstr ""
+
+#: .\utils\xmlrpc\templates\xmlrpc_get.html.py:11
+msgid "The following methods are available :"
+msgstr ""
+
+#: .\utils\xmlrpc\templates\xmlrpc_get.html.py:17
+msgid "Types of argument"
+msgstr ""
+
+#: .\utils\xmlrpc\templates\xmlrpc_get.html.py:19
+msgid "Type of return"
+msgstr ""
+
+#: .\zinnia\feeds.py:139 .\zinnia\templates\zinnia\entry_archive.html.py:4
+#: .\zinnia\templates\zinnia\entry_archive.html.py:6
+msgid "Latest entries"
+msgstr ""
+
+#: .\zinnia\feeds.py:143
+#, python-format
+msgid "The latest entries for the site %s"
+msgstr ""
+
+#: .\zinnia\feeds.py:163
+#, python-format
+msgid "Entries for the category %s"
+msgstr ""
+
+#: .\zinnia\feeds.py:167
+#, python-format
+msgid "The latest entries for the category %s"
+msgstr ""
+
+#: .\zinnia\feeds.py:187
+#, python-format
+msgid "Entries for author %s"
+msgstr ""
+
+#: .\zinnia\feeds.py:191
+#, python-format
+msgid "The latest entries by %s"
+msgstr ""
+
+#: .\zinnia\feeds.py:212
+#, python-format
+msgid "Entries for the tag %s"
+msgstr ""
+
+#: .\zinnia\feeds.py:216
+#, python-format
+msgid "The latest entries for the tag %s"
+msgstr ""
+
+#: .\zinnia\feeds.py:239
+#, python-format
+msgid "Results of the search for '%s'"
+msgstr ""
+
+#: .\zinnia\feeds.py:243
+#, python-format
+msgid "The entries containing the pattern '%s'"
+msgstr ""
+
+#: .\zinnia\feeds.py:288
+msgid "Latest discussions"
+msgstr ""
+
+#: .\zinnia\feeds.py:292
+#, python-format
+msgid "The latest discussions for the site %s"
+msgstr ""
+
+#: .\zinnia\feeds.py:315
+#, python-format
+msgid "Discussions on %s"
+msgstr ""
+
+#: .\zinnia\feeds.py:319
+#, python-format
+msgid "The latest discussions for the entry %s"
+msgstr ""
+
+#: .\zinnia\feeds.py:338
+#, python-format
+msgid "Comments on %s"
+msgstr ""
+
+#: .\zinnia\feeds.py:342
+#, python-format
+msgid "The latest comments for the entry %s"
+msgstr ""
+
+#: .\zinnia\feeds.py:372
+#, python-format
+msgid "Pingbacks on %s"
+msgstr ""
+
+#: .\zinnia\feeds.py:376
+#, python-format
+msgid "The latest pingbacks for the entry %s"
+msgstr ""
+
+#: .\zinnia\feeds.py:394
+#, python-format
+msgid "Trackbacks on %s"
+msgstr ""
+
+#: .\zinnia\feeds.py:398
+#, python-format
+msgid "The latest trackbacks for the entry %s"
+msgstr ""
+
+#: .\zinnia\moderator.py:59 .\zinnia\moderator.py:80 .\zinnia\moderator.py:101
+#, python-format
+msgid "[%(site)s] New comment posted on \"%(title)s\""
+msgstr ""
+
+#: .\zinnia\admin\category.py:30
+msgid "tree path"
+msgstr ""
+
+#: .\zinnia\admin\entry.py:43
+msgid "Privacy"
+msgstr ""
+
+#: .\zinnia\admin\entry.py:45
+#: .\zinnia\templates\admin\zinnia\widgets\_content_stats.html.py:4
+#: .\zinnia\templates\zinnia\_entry_detail_base.html.py:114
+msgid "Discussions"
+msgstr ""
+
+#: .\zinnia\admin\entry.py:50
+msgid "Publication"
+msgstr ""
+
+#: .\zinnia\admin\entry.py:78
+#, python-format
+msgid "%(title)s (%(word_count)i words)"
+msgstr ""
+
+#: .\zinnia\admin\entry.py:85
+#, python-format
+msgid "%(title)s (%(reactions)i reaction)"
+msgid_plural "%(title)s (%(reactions)i reactions)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\zinnia\admin\entry.py:90 .\zinnia\models\category.py:21
+#: .\zinnia\models_bases\entry.py:48
+msgid "title"
+msgstr ""
+
+#: .\zinnia\admin\entry.py:102
+msgid "author(s)"
+msgstr ""
+
+#: .\zinnia\admin\entry.py:115
+msgid "category(s)"
+msgstr ""
+
+#: .\zinnia\admin\entry.py:126
+msgid "tag(s)"
+msgstr ""
+
+#: .\zinnia\admin\entry.py:139
+msgid "site(s)"
+msgstr ""
+
+#: .\zinnia\admin\entry.py:150
+msgid "short url"
+msgstr ""
+
+#: .\zinnia\admin\entry.py:156
+msgid "is visible"
+msgstr ""
+
+#: .\zinnia\admin\entry.py:224
+msgid "The selected entries now belong to you."
+msgstr ""
+
+#: .\zinnia\admin\entry.py:225
+msgid "Set the entries to the user"
+msgstr ""
+
+#: .\zinnia\admin\entry.py:232
+msgid "The selected entries are now marked as published."
+msgstr ""
+
+#: .\zinnia\admin\entry.py:233
+msgid "Set entries selected as published"
+msgstr ""
+
+#: .\zinnia\admin\entry.py:239
+msgid "The selected entries are now marked as hidden."
+msgstr ""
+
+#: .\zinnia\admin\entry.py:240
+msgid "Set entries selected as hidden"
+msgstr ""
+
+#: .\zinnia\admin\entry.py:246
+msgid "Comments are now closed for selected entries."
+msgstr ""
+
+#: .\zinnia\admin\entry.py:247
+msgid "Close the comments for selected entries"
+msgstr ""
+
+#: .\zinnia\admin\entry.py:254
+msgid "Pingbacks are now closed for selected entries."
+msgstr ""
+
+#: .\zinnia\admin\entry.py:256
+msgid "Close the pingbacks for selected entries"
+msgstr ""
+
+#: .\zinnia\admin\entry.py:262
+msgid "Trackbacks are now closed for selected entries."
+msgstr ""
+
+#: .\zinnia\admin\entry.py:264
+msgid "Close the trackbacks for selected entries"
+msgstr ""
+
+#: .\zinnia\admin\entry.py:271
+msgid "The selected entries are now set at the current date."
+msgstr ""
+
+#: .\zinnia\admin\entry.py:273
+msgid "Put the selected entries on top at the current date"
+msgstr ""
+
+#: .\zinnia\admin\entry.py:279
+msgid "Selected entries are now marked as featured."
+msgstr ""
+
+#: .\zinnia\admin\entry.py:280
+msgid "Mark selected entries as featured"
+msgstr ""
+
+#: .\zinnia\admin\entry.py:286
+msgid "Selected entries are no longer marked as featured."
+msgstr ""
+
+#: .\zinnia\admin\entry.py:288
+msgid "Unmark selected entries as featured"
+msgstr ""
+
+#: .\zinnia\admin\entry.py:303
+msgid "The selected entries have been tweeted."
+msgstr ""
+
+#: .\zinnia\admin\entry.py:304
+msgid "Tweet entries selected"
+msgstr ""
+
+#: .\zinnia\admin\entry.py:323
+#, python-format
+msgid "%(directory)s directory succesfully pinged %(success)d entries."
+msgstr ""
+
+#: .\zinnia\admin\entry.py:327
+msgid "Ping Directories for selected entries"
+msgstr ""
+
+#: .\zinnia\admin\filters.py:27
+#, python-format
+msgid "%(item)s (%(count)i entry)"
+msgid_plural "%(item)s (%(count)i entries)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\zinnia\admin\filters.py:48
+msgid "published authors"
+msgstr ""
+
+#: .\zinnia\admin\filters.py:59
+msgid "published categories"
+msgstr ""
+
+#: .\zinnia\admin\forms.py:22
+msgid "Parent category"
+msgstr ""
+
+#: .\zinnia\admin\forms.py:24
+msgid "No parent category"
+msgstr ""
+
+#: .\zinnia\admin\forms.py:38
+msgid "A category cannot be parent of itself."
+msgstr ""
+
+#: .\zinnia\admin\forms.py:50 .\zinnia\templates\zinnia\base.html.py:36
+#: .\zinnia\templates\zinnia\category_list.html.py:6
+#: .\zinnia\templates\zinnia\sitemap.html.py:52
+#: .\zinnia\templatetags\zbreadcrumbs.py:65
+msgid "Categories"
+msgstr ""
+
+#: .\zinnia\admin\forms.py:52 .\zinnia\models\category.py:75
+#: .\zinnia\models_bases\entry.py:403
+msgid "categories"
+msgstr ""
+
+#: .\zinnia\models\category.py:24 .\zinnia\models_bases\entry.py:51
+msgid "slug"
+msgstr ""
+
+#: .\zinnia\models\category.py:25
+msgid "Used to build the category's URL."
+msgstr ""
+
+#: .\zinnia\models\category.py:34
+msgid "parent category"
+msgstr ""
+
+#: .\zinnia\models\category.py:74
+msgid "category"
+msgstr ""
+
+#: .\zinnia\models_bases\entry.py:44
+msgid "hidden"
+msgstr ""
+
+#: .\zinnia\models_bases\entry.py:45
+msgid "published"
+msgstr ""
+
+#: .\zinnia\models_bases\entry.py:53 .\zinnia\models_bases\entry.py:74
+msgid "Used to build the entry's URL."
+msgstr ""
+
+#: .\zinnia\models_bases\entry.py:56
+msgid "status"
+msgstr ""
+
+#: .\zinnia\models_bases\entry.py:59
+msgid "start publication"
+msgstr ""
+
+#: .\zinnia\models_bases\entry.py:60
+msgid "Start date of publication."
+msgstr ""
+
+#: .\zinnia\models_bases\entry.py:63
+msgid "end publication"
+msgstr ""
+
+#: .\zinnia\models_bases\entry.py:64
+msgid "End date of publication."
+msgstr ""
+
+#: .\zinnia\models_bases\entry.py:69
+msgid "sites"
+msgstr ""
+
+#: .\zinnia\models_bases\entry.py:70
+msgid "Sites where the entry will be published."
+msgstr ""
+
+#: .\zinnia\models_bases\entry.py:73
+msgid "creation date"
+msgstr ""
+
+#: .\zinnia\models_bases\entry.py:77
+msgid "last update"
+msgstr ""
+
+#: .\zinnia\models_bases\entry.py:179
+msgid "entry"
+msgstr ""
+
+#: .\zinnia\models_bases\entry.py:180
+msgid "entries"
+msgstr ""
+
+#: .\zinnia\models_bases\entry.py:192
+msgid "content"
+msgstr ""
+
+#: .\zinnia\models_bases\entry.py:234
+msgid "comments enabled"
+msgstr ""
+
+#: .\zinnia\models_bases\entry.py:235
+msgid "Allows comments if checked."
+msgstr ""
+
+#: .\zinnia\models_bases\entry.py:237
+msgid "pingbacks enabled"
+msgstr ""
+
+#: .\zinnia\models_bases\entry.py:238
+msgid "Allows pingbacks if checked."
+msgstr ""
+
+#: .\zinnia\models_bases\entry.py:240
+msgid "trackbacks enabled"
+msgstr ""
+
+#: .\zinnia\models_bases\entry.py:241
+msgid "Allows trackbacks if checked."
+msgstr ""
+
+#: .\zinnia\models_bases\entry.py:244
+msgid "comment count"
+msgstr ""
+
+#: .\zinnia\models_bases\entry.py:246
+msgid "pingback count"
+msgstr ""
+
+#: .\zinnia\models_bases\entry.py:248
+msgid "trackback count"
+msgstr ""
+
+#: .\zinnia\models_bases\entry.py:332
+msgid "related entries"
+msgstr ""
+
+#: .\zinnia\models_bases\entry.py:350
+msgid "excerpt"
+msgstr ""
+
+#: .\zinnia\models_bases\entry.py:351
+msgid "Optional element."
+msgstr ""
+
+#: .\zinnia\models_bases\entry.py:362
+msgid "image"
+msgstr ""
+
+#: .\zinnia\models_bases\entry.py:363
+msgid "Used for illustration."
+msgstr ""
+
+#: .\zinnia\models_bases\entry.py:374
+msgid "featured"
+msgstr ""
+
+#: .\zinnia\models_bases\entry.py:389
+msgid "authors"
+msgstr ""
+
+#: .\zinnia\models_bases\entry.py:432
+msgid "login required"
+msgstr ""
+
+#: .\zinnia\models_bases\entry.py:433
+msgid "Only authenticated users can view the entry."
+msgstr ""
+
+#: .\zinnia\models_bases\entry.py:445
+msgid "password"
+msgstr ""
+
+#: .\zinnia\models_bases\entry.py:446
+msgid "Protects the entry with a password."
+msgstr ""
+
+#: .\zinnia\models_bases\entry.py:458
+msgid "content template"
+msgstr ""
+
+#: .\zinnia\models_bases\entry.py:460 .\zinnia\models_bases\entry.py:476
+msgid "Default template"
+msgstr ""
+
+#: .\zinnia\models_bases\entry.py:462
+msgid "Template used to display the entry's content."
+msgstr ""
+
+#: .\zinnia\models_bases\entry.py:474
+msgid "detail template"
+msgstr ""
+
+#: .\zinnia\models_bases\entry.py:478
+msgid "Template used to display the entry's detail page."
+msgstr ""
+
+#: .\zinnia\templates\403.html.py:6
+msgid "Error 403"
+msgstr ""
+
+#: .\zinnia\templates\403.html.py:17
+msgid "Sorry but you don't have the permission to do this action."
+msgstr ""
+
+#: .\zinnia\templates\404.html.py:6
+msgid "Error 404"
+msgstr ""
+
+#: .\zinnia\templates\404.html.py:17
+msgid "Sorry, but the requested page could not be found."
+msgstr ""
+
+#: .\zinnia\templates\500.html.py:6
+msgid "Error 500"
+msgstr ""
+
+#: .\zinnia\templates\admin\zinnia\widgets\_content_stats.html.py:3
+msgid "Contents"
+msgstr ""
+
+#: .\zinnia\templates\admin\zinnia\widgets\_content_stats.html.py:9
+#: .\zinnia\templates\zinnia\author_list.html.py:19
+#: .\zinnia\templates\zinnia\category_list.html.py:17
+#: .\zinnia\templates\zinnia\sitemap.html.py:57
+#: .\zinnia\templates\zinnia\tag_list.html.py:18
+#: .\zinnia\templates\zinnia\tags\authors.html.py:8
+#: .\zinnia\templates\zinnia\tags\categories.html.py:7
+#: .\zinnia\templates\zinnia\tags\categories_tree.html.py:6
+#: .\zinnia\templates\zinnia\tags\statistics.html.py:7
+#, python-format
+msgid "%(entry_count)s entry"
+msgid_plural "%(entry_count)s entries"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\zinnia\templates\admin\zinnia\widgets\_content_stats.html.py:14
+#: .\zinnia\templates\zinnia\_entry_detail_base.html.py:120
+#: .\zinnia\templates\zinnia\tags\popular_entries.html.py:8
+#: .\zinnia\templates\zinnia\tags\statistics.html.py:16
+#, python-format
+msgid "%(comment_count)s comment"
+msgid_plural "%(comment_count)s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\zinnia\templates\admin\zinnia\widgets\_content_stats.html.py:21
+#: .\zinnia\templates\zinnia\tags\statistics.html.py:13
+#, python-format
+msgid "%(category_count)s category"
+msgid_plural "%(category_count)s categories"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\zinnia\templates\admin\zinnia\widgets\_content_stats.html.py:24
+#: .\zinnia\templates\zinnia\_entry_detail_base.html.py:139
+#: .\zinnia\templates\zinnia\tags\statistics.html.py:19
+#, python-format
+msgid "%(pingback_count)s pingback"
+msgid_plural "%(pingback_count)s pingbacks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\zinnia\templates\admin\zinnia\widgets\_content_stats.html.py:29
+#: .\zinnia\templates\zinnia\tags\statistics.html.py:10
+#, python-format
+msgid "%(tag_count)s tag"
+msgid_plural "%(tag_count)s tags"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\zinnia\templates\admin\zinnia\widgets\_content_stats.html.py:32
+#: .\zinnia\templates\zinnia\_entry_detail_base.html.py:148
+#: .\zinnia\templates\zinnia\tags\statistics.html.py:22
+#, python-format
+msgid "%(trackback_count)s trackback"
+msgid_plural "%(trackback_count)s trackbacks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\zinnia\templates\admin\zinnia\widgets\_content_stats.html.py:37
+#: .\zinnia\templates\zinnia\tags\statistics.html.py:4
+#, python-format
+msgid "%(author_count)s author"
+msgid_plural "%(author_count)s authors"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\zinnia\templates\admin\zinnia\widgets\_content_stats.html.py:42
+#: .\zinnia\templates\zinnia\tags\statistics.html.py:25
+#, python-format
+msgid "%(reject_count)s rejected item"
+msgid_plural "%(reject_count)s rejected items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\zinnia\templates\admin\zinnia\widgets\_content_stats.html.py:47
+msgid "Statistics"
+msgstr ""
+
+#: .\zinnia\templates\admin\zinnia\widgets\_content_stats.html.py:49
+#: .\zinnia\templates\zinnia\tags\statistics.html.py:28
+#, python-format
+msgid "%(entries_per_month)s entries per month"
+msgstr ""
+
+#: .\zinnia\templates\admin\zinnia\widgets\_content_stats.html.py:54
+#: .\zinnia\templates\zinnia\tags\statistics.html.py:31
+#, python-format
+msgid "%(words_per_entry)s words per entry"
+msgstr ""
+
+#: .\zinnia\templates\admin\zinnia\widgets\_content_stats.html.py:57
+#: .\zinnia\templates\zinnia\tags\statistics.html.py:34
+#, python-format
+msgid "%(words_per_comment)s words per comment"
+msgstr ""
+
+#: .\zinnia\templates\admin\zinnia\widgets\_content_stats.html.py:62
+#: .\zinnia\templates\zinnia\tags\statistics.html.py:37
+#, python-format
+msgid "%(comments_per_entry)s comments per entry"
+msgstr ""
+
+#: .\zinnia\templates\admin\zinnia\widgets\_content_stats.html.py:65
+#: .\zinnia\templates\zinnia\tags\statistics.html.py:40
+#, python-format
+msgid "%(linkbacks_per_entry)s linkbacks per entry"
+msgstr ""
+
+#: .\zinnia\templates\admin\zinnia\widgets\_draft_entries.html.py:6
+#: .\zinnia\templates\zinnia\entry_detail_base.html.py:223
+#: .\zinnia\templates\zinnia\entry_detail_base.html.py:224
+msgid "Edit the entry"
+msgstr ""
+
+#: .\zinnia\templates\admin\zinnia\widgets\_draft_entries.html.py:9
+#: .\zinnia\templates\comments\zinnia_entry_preview.html.py:25
+#: .\zinnia\templates\feeds\comment_title.html.py:2
+#: .\zinnia\templates\feeds\discussion_title.html.py:2
+#: .\zinnia\templates\feeds\pingback_title.html.py:2
+#: .\zinnia\templates\feeds\trackback_title.html.py:2
+#: .\zinnia\templates\zinnia\_entry_detail_base.html.py:23
+#: .\zinnia\templates\zinnia\entry_detail_base.html.py:113
+#: .\zinnia\templates\zinnia\entry_detail_base.html.py:150
+#: .\zinnia\templates\zinnia\entry_detail_base.html.py:186
+msgctxt "on date"
+msgid "on"
+msgstr ""
+
+#: .\zinnia\templates\admin\zinnia\widgets\_draft_entries.html.py:22
+#: .\zinnia\templates\zinnia\tags\draft_entries.html.py:9
+msgid "No draft entries."
+msgstr ""
+
+#: .\zinnia\templates\admin\zinnia\widgets\_draft_entries.html.py:31
+#: .\zinnia\templates\admin\zinnia\widgets\_draft_entries.html.py:32
+msgid "View all draft entries"
+msgstr ""
+
+#: .\zinnia\templates\admin\zinnia\widgets\_recent_comments.html.py:10
+#: .\zinnia\templates\zinnia\_entry_detail_base.html.py:35
+#: .\zinnia\templates\zinnia\tags\recent_comments.html.py:6
+#: .\zinnia\templates\zinnia\tags\recent_linkbacks.html.py:7
+msgid "in"
+msgstr ""
+
+#: .\zinnia\templates\admin\zinnia\widgets\_recent_comments.html.py:13
+#: .\zinnia\templates\zinnia\tags\recent_comments.html.py:8
+msgid "Comment on"
+msgstr ""
+
+#: .\zinnia\templates\admin\zinnia\widgets\_recent_comments.html.py:22
+msgid "Edit the comment"
+msgstr ""
+
+#: .\zinnia\templates\admin\zinnia\widgets\_recent_comments.html.py:23
+#: .\zinnia\templates\admin\zinnia\widgets\_recent_linkbacks.html.py:18
+msgid "Edit"
+msgstr ""
+
+#: .\zinnia\templates\admin\zinnia\widgets\_recent_comments.html.py:30
+#: .\zinnia\templates\zinnia\_entry_detail_base.html.py:124
+#: .\zinnia\templates\zinnia\entry_detail_base.html.py:131
+#: .\zinnia\templates\zinnia\tags\recent_comments.html.py:15
+msgid "No comments yet."
+msgstr ""
+
+#: .\zinnia\templates\admin\zinnia\widgets\_recent_comments.html.py:39
+#: .\zinnia\templates\admin\zinnia\widgets\_recent_comments.html.py:40
+msgid "Manage the comments"
+msgstr ""
+
+#: .\zinnia\templates\admin\zinnia\widgets\_recent_linkbacks.html.py:7
+msgid "made a linkback on"
+msgstr ""
+
+#: .\zinnia\templates\admin\zinnia\widgets\_recent_linkbacks.html.py:17
+msgid "Edit the linkback"
+msgstr ""
+
+#: .\zinnia\templates\admin\zinnia\widgets\_recent_linkbacks.html.py:25
+#: .\zinnia\templates\zinnia\tags\recent_linkbacks.html.py:16
+msgid "No linkbacks yet."
+msgstr ""
+
+#: .\zinnia\templates\admin\zinnia\widgets\content_stats.html.py:6
+#: .\zinnia\templates\admin\zinnia\widgets\content_stats.html.py:8
+msgid "Today"
+msgstr ""
+
+#: .\zinnia\templates\admin\zinnia\widgets\draft_entries.html.py:6
+#: .\zinnia\templates\admin\zinnia\widgets\draft_entries.html.py:8
+msgid "Draft entries"
+msgstr ""
+
+#: .\zinnia\templates\admin\zinnia\widgets\quickpost.html.py:5
+#: .\zinnia\templates\admin\zinnia\widgets\quickpost.html.py:6
+msgid "Quick publishing"
+msgstr ""
+
+#: .\zinnia\templates\admin\zinnia\widgets\quickpost.html.py:25
+#: .\zinnia\templates\zinnia\_entry_detail_base.html.py:92
+#: .\zinnia\templates\zinnia\base.html.py:48
+#: .\zinnia\templates\zinnia\tag_list.html.py:6
+#: .\zinnia\templatetags\zbreadcrumbs.py:58
+msgid "Tags"
+msgstr ""
+
+#: .\zinnia\templates\admin\zinnia\widgets\quickpost.html.py:33
+msgid "Save as draft"
+msgstr ""
+
+#: .\zinnia\templates\admin\zinnia\widgets\quickpost.html.py:34
+msgid "Reset"
+msgstr ""
+
+#: .\zinnia\templates\admin\zinnia\widgets\recent_comments.html.py:6
+#: .\zinnia\templates\admin\zinnia\widgets\recent_comments.html.py:8
+#: .\zinnia\templates\zinnia\base.html.py:56
+msgid "Recent comments"
+msgstr ""
+
+#: .\zinnia\templates\admin\zinnia\widgets\recent_linkbacks.html.py:6
+#: .\zinnia\templates\admin\zinnia\widgets\recent_linkbacks.html.py:8
+#: .\zinnia\templates\zinnia\base.html.py:60
+msgid "Recent linkbacks"
+msgstr ""
+
+#: .\zinnia\templates\comments\comment_authors_email.txt.py:6
+#: .\zinnia\templates\comments\comment_notification_email.txt.py:8
+#: .\zinnia\templates\comments\comment_reply_email.txt.py:6
+msgid "View this comment"
+msgstr ""
+
+#: .\zinnia\templates\comments\comment_notification_email.txt.py:3
+msgid "IP"
+msgstr ""
+
+#: .\zinnia\templates\comments\comment_notification_email.txt.py:12
+msgid "Delete this comment"
+msgstr ""
+
+#: .\zinnia\templates\comments\comment_notification_email.txt.py:14
+msgid "Approve this comment"
+msgstr ""
+
+#: .\zinnia\templates\comments\zinnia_entry_preview.html.py:4
+msgid "Comment preview"
+msgstr ""
+
+#: .\zinnia\templates\comments\zinnia_entry_preview.html.py:10
+msgid "Please correct following error."
+msgid_plural "Please correct following errors."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\zinnia\templates\comments\zinnia_entry_preview.html.py:12
+msgid "Preview of the comment"
+msgstr ""
+
+#: .\zinnia\templates\comments\zinnia\entry\form.html.py:20
+msgid "Comment as"
+msgstr ""
+
+#: .\zinnia\templates\comments\zinnia\entry\posted.html.py:4
+#: .\zinnia\templates\comments\zinnia\entry\posted.html.py:9
+msgid "Thanks for your comment"
+msgstr ""
+
+#: .\zinnia\templates\comments\zinnia\entry\posted.html.py:11
+msgid "Your comment needs to be approved before getting displayed."
+msgstr ""
+
+#: .\zinnia\templates\comments\zinnia\entry\posted.html.py:19
+#, python-format
+msgid "Back to %(title)s"
+msgstr ""
+
+#: .\zinnia\templates\comments\zinnia\entry\posted.html.py:26
+#: .\zinnia\templates\comments\zinnia\entry\posted.html.py:27
+msgid "Return to entry list"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\_entry_detail_base.html.py:17
+msgid "Written by"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\_entry_detail_base.html.py:21
+#: .\zinnia\templates\zinnia\author_list.html.py:17
+#: .\zinnia\templates\zinnia\tags\authors.html.py:6
+#, python-format
+msgid "Show all %(author)s's entries"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\_entry_detail_base.html.py:25
+msgid "Written on"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\_entry_detail_base.html.py:38
+#: .\zinnia\templates\zinnia\category_list.html.py:16
+#: .\zinnia\templates\zinnia\tags\categories.html.py:6
+#: .\zinnia\templates\zinnia\tags\categories_tree.html.py:5
+#, python-format
+msgid "Show all entries in %(category)s"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\_entry_detail_base.html.py:46
+msgid "Last update on"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\_entry_detail_base.html.py:78
+#, python-format
+msgid "Continue reading %(object)s"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\_entry_detail_base.html.py:80
+msgid "Continue reading"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\_entry_detail_base.html.py:95
+#: .\zinnia\templates\zinnia\tag_list.html.py:17
+#, python-format
+msgid "Show all entries tagged by %(tag)s"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\_entry_detail_base.html.py:98
+msgid "No tags"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\_entry_detail_base.html.py:104
+msgid "Short url"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\_entry_detail_base.html.py:106
+#, python-format
+msgid "Short URL to %(object)s"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\_entry_detail_base.html.py:119
+#: .\zinnia\templates\zinnia\tags\popular_entries.html.py:7
+#, python-format
+msgid "Comments on %(object)s"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\_entry_detail_base.html.py:126
+#, python-format
+msgid "Leave a comment on %(object)s"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\_entry_detail_base.html.py:127
+msgid "Be first to comment!"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\_entry_detail_base.html.py:130
+#: .\zinnia\templates\zinnia\entry_detail_base.html.py:127
+#: .\zinnia\templates\zinnia\entry_detail_base.html.py:133
+msgid "Comments are closed."
+msgstr ""
+
+#: .\zinnia\templates\zinnia\_entry_detail_base.html.py:138
+#, python-format
+msgid "Pingbacks on %(object)s"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\_entry_detail_base.html.py:147
+#, python-format
+msgid "Trackbacks on %(object)s"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\author_list.html.py:4
+#: .\zinnia\templates\zinnia\author_list.html.py:11
+msgid "Author list"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\author_list.html.py:6
+#: .\zinnia\templates\zinnia\base.html.py:40
+#: .\zinnia\templatetags\zbreadcrumbs.py:61
+msgid "Authors"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\author_list.html.py:23
+#: .\zinnia\templates\zinnia\tags\authors.html.py:12
+msgid "No authors yet."
+msgstr ""
+
+#: .\zinnia\templates\zinnia\base.html.py:16
+#: .\zinnia\templates\zinnia\skeleton.html.py:36
+msgid "RSS Feed of latest entries"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\base.html.py:17
+msgid "RSS Feed of latest discussions"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\base.html.py:27
+msgid "Welcome!"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\base.html.py:29
+msgid "This simple theme is the default appearance of Zinnia."
+msgstr ""
+
+#: .\zinnia\templates\zinnia\base.html.py:32
+msgid ""
+"Don't hesitate to override the template <strong>zinnia/base.html</strong> to "
+"start <a href='http://docs.django-blog-zinnia.com/en/latest/how-to/"
+"customize_look_and_feel.html'>customizing your Weblog</a>."
+msgstr ""
+
+#: .\zinnia\templates\zinnia\base.html.py:44
+msgid "Calendar"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\base.html.py:52
+msgid "Recent entries"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\base.html.py:64
+msgid "Random entries"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\base.html.py:68
+msgid "Popular entries"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\base.html.py:72
+#: .\zinnia\templates\zinnia\entry_archive_day.html.py:4
+#: .\zinnia\templates\zinnia\entry_archive_day.html.py:6
+#: .\zinnia\templates\zinnia\entry_archive_day.html.py:11
+#: .\zinnia\templates\zinnia\entry_archive_day.html.py:28
+#: .\zinnia\templates\zinnia\entry_archive_month.html.py:4
+#: .\zinnia\templates\zinnia\entry_archive_month.html.py:6
+#: .\zinnia\templates\zinnia\entry_archive_month.html.py:11
+#: .\zinnia\templates\zinnia\entry_archive_month.html.py:36
+#: .\zinnia\templates\zinnia\entry_archive_today.html.py:22
+#: .\zinnia\templates\zinnia\entry_archive_week.html.py:32
+#: .\zinnia\templates\zinnia\entry_archive_year.html.py:4
+#: .\zinnia\templates\zinnia\entry_archive_year.html.py:6
+#: .\zinnia\templates\zinnia\entry_archive_year.html.py:11
+#: .\zinnia\templates\zinnia\tags\archives_entries.html.py:5
+#: .\zinnia\templates\zinnia\tags\archives_entries_link.html.py:2
+#: .\zinnia\templates\zinnia\tags\archives_entries_tree.html.py:6
+#: .\zinnia\templates\zinnia\tags\archives_entries_tree.html.py:13
+#: .\zinnia\templates\zinnia\tags\archives_entries_tree.html.py:23
+msgid "Archives"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\base.html.py:77
+msgid "Tools"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\base.html.py:81
+#: .\zinnia\templates\zinnia\base.html.py:82
+msgid "Dashboard"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\base.html.py:88
+#: .\zinnia\templates\zinnia\base.html.py:89
+msgid "Post an entry"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\category_list.html.py:4
+#: .\zinnia\templates\zinnia\category_list.html.py:11
+msgid "Category list"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\category_list.html.py:28
+#: .\zinnia\templates\zinnia\sitemap.html.py:62
+#: .\zinnia\templates\zinnia\tags\categories.html.py:11
+#: .\zinnia\templates\zinnia\tags\categories_tree.html.py:16
+msgid "No categories yet."
+msgstr ""
+
+#: .\zinnia\templates\zinnia\entry_archive.html.py:16
+msgid "Yearly archives"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\entry_archive_day.html.py:16
+#: .\zinnia\templates\zinnia\entry_archive_today.html.py:16
+msgid "Previous day"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\entry_archive_day.html.py:22
+msgid "Next day"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\entry_archive_month.html.py:15
+msgid "Daily archives"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\entry_archive_month.html.py:25
+msgid "Previous month"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\entry_archive_month.html.py:31
+msgid "Next month"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\entry_archive_today.html.py:4
+#: .\zinnia\templates\zinnia\entry_archive_today.html.py:6
+#: .\zinnia\templates\zinnia\entry_archive_today.html.py:11
+msgid "Today archives"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\entry_archive_week.html.py:4
+#: .\zinnia\templates\zinnia\entry_archive_week.html.py:6
+#: .\zinnia\templates\zinnia\entry_archive_week.html.py:11
+#, python-format
+msgid "Archives week %(week_number)s of %(year)s"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\entry_archive_week.html.py:17
+msgid "Previous week"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\entry_archive_week.html.py:20
+#: .\zinnia\templates\zinnia\entry_archive_week.html.py:28
+#, python-format
+msgid "Week %(week_number)s of %(year)s"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\entry_archive_week.html.py:25
+msgid "Next week"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\entry_archive_year.html.py:15
+#: .\zinnia\templates\zinnia\sitemap.html.py:69
+msgid "Monthly archives"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\entry_archive_year.html.py:25
+msgid "Previous year"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\entry_archive_year.html.py:31
+msgid "Next year"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\entry_detail_base.html.py:21
+msgid "RSS Feed of discussions on"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\entry_detail_base.html.py:23
+msgid "RSS Feed of comments on"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\entry_detail_base.html.py:25
+msgid "RSS Feed of pingbacks on"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\entry_detail_base.html.py:27
+msgid "RSS Feed of trackbacks on"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\entry_detail_base.html.py:46
+msgid "Next entry"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\entry_detail_base.html.py:60
+msgid "Previous entry"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\entry_detail_base.html.py:74
+msgid "Related entries"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\entry_detail_base.html.py:88
+msgid "Similar entries"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\entry_detail_base.html.py:97
+msgid "Comments"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\entry_detail_base.html.py:119
+msgid "Direct link to this comment"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\entry_detail_base.html.py:141
+msgid "Pingbacks"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\entry_detail_base.html.py:156
+msgid "Direct link to this pingback"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\entry_detail_base.html.py:167
+msgid "Pingbacks are open."
+msgstr ""
+
+#: .\zinnia\templates\zinnia\entry_detail_base.html.py:169
+msgid "Pingbacks are closed."
+msgstr ""
+
+#: .\zinnia\templates\zinnia\entry_detail_base.html.py:177
+msgid "Trackbacks"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\entry_detail_base.html.py:192
+msgid "Direct link to this trackback"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\entry_detail_base.html.py:205
+msgid "Trackback URL"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\entry_list.html.py:4
+msgid "Latest entries for"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\entry_list.html.py:4
+msgid "the category"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\entry_list.html.py:4
+msgid "the tag"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\entry_list.html.py:4
+msgid "the author"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\entry_list.html.py:6
+msgid "page"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\entry_list.html.py:11
+#: .\zinnia\templates\zinnia\entry_list.html.py:14
+#: .\zinnia\templates\zinnia\entry_list.html.py:17
+#: .\zinnia\templates\zinnia\skeleton.html.py:37
+msgid "RSS Feed"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\entry_list.html.py:21
+msgid "Tag"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\entry_list.html.py:23
+msgid "Page"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\entry_list.html.py:31
+#, python-format
+msgid "Category archives: %(category)s"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\entry_list.html.py:38
+#, python-format
+msgid "Tag archives: %(tag)s"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\entry_list.html.py:42
+#, python-format
+msgid "Author archives: %(author)s"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\entry_list.html.py:51
+#: .\zinnia\templates\zinnia\sitemap.html.py:25
+#: .\zinnia\templates\zinnia\sitemap.html.py:45
+#: .\zinnia\templates\zinnia\tags\featured_entries.html.py:9
+#: .\zinnia\templates\zinnia\tags\popular_entries.html.py:12
+#: .\zinnia\templates\zinnia\tags\random_entries.html.py:9
+#: .\zinnia\templates\zinnia\tags\recent_entries.html.py:9
+msgid "No entries yet."
+msgstr ""
+
+#: .\zinnia\templates\zinnia\entry_list.html.py:70
+#: .\zinnia\templates\zinnia\entry_list.html.py:71
+msgid "Edit the category"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\entry_list.html.py:77
+#: .\zinnia\templates\zinnia\entry_list.html.py:78
+msgid "Edit the tag"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\entry_list.html.py:84
+#: .\zinnia\templates\zinnia\entry_list.html.py:85
+msgid "Edit the author"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\entry_search.html.py:4
+#: .\zinnia\templates\zinnia\entry_search.html.py:6
+#: .\zinnia\templates\zinnia\entry_search.html.py:16
+msgid "Search results for"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\entry_search.html.py:10
+msgid "RSS Feed of search result of"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\entry_search.html.py:24
+#, python-format
+msgid "%(entry_count)s entry found"
+msgid_plural "%(entry_count)s entries found"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\zinnia\templates\zinnia\entry_search.html.py:34
+msgid "Nothing found."
+msgstr ""
+
+#: .\zinnia\templates\zinnia\login.html.py:4
+#: .\zinnia\templates\zinnia\login.html.py:9
+msgid "Login required"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\login.html.py:17
+msgid "You need to be connected to view this entry."
+msgstr ""
+
+#: .\zinnia\templates\zinnia\password.html.py:4
+#: .\zinnia\templates\zinnia\password.html.py:9
+msgid "Password required"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\password.html.py:13
+msgid "The password provided is not valid. Please try again."
+msgstr ""
+
+#: .\zinnia\templates\zinnia\password.html.py:17
+msgid "You need to provide a password to view this entry."
+msgstr ""
+
+#: .\zinnia\templates\zinnia\password.html.py:29
+msgid "Valid"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\sitemap.html.py:4
+#: .\zinnia\templates\zinnia\sitemap.html.py:9
+#: .\zinnia\templates\zinnia\skeleton.html.py:31
+#: .\zinnia\templates\zinnia\skeleton.html.py:32
+#: .\zinnia\templates\zinnia\skeleton.html.py:69
+#: .\zinnia\templates\zinnia\skeleton.html.py:70
+msgid "Sitemap"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\sitemap.html.py:12
+msgid "Entries per categories"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\sitemap.html.py:33
+msgid "All the entries"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\skeleton.html.py:11
+#: .\zinnia\templates\zinnia\skeleton.html.py:53
+msgid "Just another Zinnia weblog."
+msgstr ""
+
+#: .\zinnia\templates\zinnia\skeleton.html.py:43
+#: .\zinnia\templates\zinnia\tags\search_form.html.py:4
+msgid "Keywords..."
+msgstr ""
+
+#: .\zinnia\templates\zinnia\skeleton.html.py:61
+msgid "Useful links"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\skeleton.html.py:64
+#: .\zinnia\templates\zinnia\skeleton.html.py:65
+msgid "Weblog index"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\skeleton.html.py:86
+#, python-format
+msgid ""
+"Powered by <a href=\"http://www.djangoproject.com\">Django</a> and <a href="
+"\"https://github.com/Fantomas42/django-blog-zinnia\">Zinnia %(ZINNIA_VERSION)"
+"s</a>."
+msgstr ""
+
+#: .\zinnia\templates\zinnia\tag_list.html.py:4
+#: .\zinnia\templates\zinnia\tag_list.html.py:11
+msgid "Tag list"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\tag_list.html.py:22
+#: .\zinnia\templates\zinnia\tags\tag_cloud.html.py:11
+msgid "No tags yet."
+msgstr ""
+
+#: .\zinnia\templates\zinnia\tags\archives_entries.html.py:12
+#: .\zinnia\templates\zinnia\tags\archives_entries_tree.html.py:37
+msgid "No archives yet."
+msgstr ""
+
+#: .\zinnia\templates\zinnia\tags\pagination.html.py:4
+#, python-format
+msgid "Page %(current_page)s of %(total_page)s"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\tags\pagination.html.py:10
+msgid "More recent entries"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\tags\pagination.html.py:20
+#: .\zinnia\templates\zinnia\tags\pagination.html.py:33
+#: .\zinnia\templates\zinnia\tags\pagination.html.py:47
+msgid "Entries page"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\tags\pagination.html.py:56
+msgid "More old entries"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\tags\recent_linkbacks.html.py:9
+msgid "Linkback on"
+msgstr ""
+
+#: .\zinnia\templates\zinnia\tags\search_form.html.py:6
+msgid ""
+"You can use - to exclude words or phrases, &quot;double quotes&quot; for "
+"exact phrases and the AND/OR boolean operators combined with parenthesis for "
+"complex queries."
+msgstr ""
+
+#: .\zinnia\templates\zinnia\tags\similar_entries.html.py:9
+msgid "No similar entries."
+msgstr ""
+
+#: .\zinnia\templates\zinnia\tags\tag_cloud.html.py:6
+#, python-format
+msgid "%(entry_count)s entry tagged by %(tag)s"
+msgid_plural "%(entry_count)s entries tagged by %(tag)s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\zinnia\templatetags\zbreadcrumbs.py:90
+#, python-format
+msgid "Page %s"
+msgstr ""
+
+#: .\zinnia\templatetags\zbreadcrumbs.py:116
+#, python-format
+msgid "Week %s"
+msgstr ""
+
+#: .\zinnia\tests\views.py:450 .\zinnia\views\search.py:30
+msgid "The pattern is too short"
+msgstr ""
+
+#: .\zinnia\tests\views.py:454 .\zinnia\views\search.py:34
+msgid "No pattern to search found"
+msgstr ""
+
+#: .\zinnia\urls\__init__.py:24
+msgid "^feeds/"
+msgstr ""
+
+#: .\zinnia\urls\__init__.py:25
+msgid "^tags/"
+msgstr ""
+
+#: .\zinnia\urls\__init__.py:26
+msgid "^authors/"
+msgstr ""
+
+#: .\zinnia\urls\__init__.py:27
+msgid "^categories/"
+msgstr ""
+
+#: .\zinnia\urls\__init__.py:28
+msgid "^search/"
+msgstr ""
+
+#: .\zinnia\urls\__init__.py:29
+msgid "^random/"
+msgstr ""
+
+#: .\zinnia\urls\__init__.py:30
+msgid "^sitemap/"
+msgstr ""
+
+#: .\zinnia\urls\__init__.py:31
+msgid "^trackback/"
+msgstr ""
+
+#: .\zinnia\urls\__init__.py:32
+msgid "^comments/"
+msgstr ""
+
+#: .\zinnia\urls\archives.py:18
+msgid "^page/(?P<page>\\d+)/$"
+msgstr ""
+
+#: .\zinnia\urls\archives.py:27
+msgid "^(?P<year>\\d{4})/page/(?P<page>\\d+)/$"
+msgstr ""
+
+#: .\zinnia\urls\archives.py:33
+msgid "^(?P<year>\\d{4})/week/(?P<week>\\d+)/$"
+msgstr ""
+
+#: .\zinnia\urls\archives.py:36
+msgid "^(?P<year>\\d{4})/week/(?P<week>\\d+)/page/(?P<page>\\d+)/$"
+msgstr ""
+
+#: .\zinnia\urls\archives.py:45
+msgid "^(?P<year>\\d{4})/(?P<month>\\d{2})/page/(?P<page>\\d+)/$"
+msgstr ""
+
+#: .\zinnia\urls\archives.py:54
+msgid ""
+"^(?P<year>\\d{4})/(?P<month>\\d{2})/(?P<day>\\d{2})/page/(?P<page>\\d+)/$"
+msgstr ""
+
+#: .\zinnia\urls\archives.py:61
+msgid "^today/$"
+msgstr ""
+
+#: .\zinnia\urls\archives.py:64
+msgid "^today/page/(?P<page>\\d+)/$"
+msgstr ""
+
+#: .\zinnia\urls\authors.py:15
+msgid "^(?P<username>[.+-@\\w]+)/page/(?P<page>\\d+)/$"
+msgstr ""
+
+#: .\zinnia\urls\categories.py:15
+msgid "^(?P<path>[-\\/\\w]+)/page/(?P<page>\\d+)/$"
+msgstr ""
+
+#: .\zinnia\urls\comments.py:11
+msgid "^success/$"
+msgstr ""
+
+#: .\zinnia\urls\feeds.py:23
+msgid "^discussions/$"
+msgstr ""
+
+#: .\zinnia\urls\feeds.py:26
+msgid "^search/$"
+msgstr ""
+
+#: .\zinnia\urls\feeds.py:29
+msgid "^tags/(?P<tag>[^/]+(?u))/$"
+msgstr ""
+
+#: .\zinnia\urls\feeds.py:32
+msgid "^authors/(?P<username>[.+-@\\w]+)/$"
+msgstr ""
+
+#: .\zinnia\urls\feeds.py:35
+msgid "^categories/(?P<path>[-\\/\\w]+)/$"
+msgstr ""
+
+#: .\zinnia\urls\feeds.py:38
+msgid ""
+"^discussions/(?P<year>\\d{4})/(?P<month>\\d{2})/(?P<day>\\d{2})/(?P<slug>[-"
+"\\w]+)/$"
+msgstr ""
+
+#: .\zinnia\urls\feeds.py:42
+msgid ""
+"^comments/(?P<year>\\d{4})/(?P<month>\\d{2})/(?P<day>\\d{2})/(?P<slug>[-\\w]"
+"+)/$"
+msgstr ""
+
+#: .\zinnia\urls\feeds.py:46
+msgid ""
+"^pingbacks/(?P<year>\\d{4})/(?P<month>\\d{2})/(?P<day>\\d{2})/(?P<slug>[-\\w]"
+"+)/$"
+msgstr ""
+
+#: .\zinnia\urls\feeds.py:50
+msgid ""
+"^trackbacks/(?P<year>\\d{4})/(?P<month>\\d{2})/(?P<day>\\d{2})/(?P<slug>[-"
+"\\w]+)/$"
+msgstr ""
+
+#: .\zinnia\urls\quick_entry.py:11
+msgid "^quick-entry/$"
+msgstr ""
+
+#: .\zinnia\urls\tags.py:18
+msgid "^(?P<tag>[^/]+(?u))/page/(?P<page>\\d+)/$"
+msgstr ""
+
+#: .\zinnia\xmlrpc\metaweblog.py:45
+msgid "Username is incorrect."
+msgstr ""
+
+#: .\zinnia\xmlrpc\metaweblog.py:47
+msgid "Password is invalid."
+msgstr ""
+
+#: .\zinnia\xmlrpc\metaweblog.py:49
+msgid "User account unavailable."
+msgstr ""
+
+#: .\zinnia\xmlrpc\metaweblog.py:52
+#, python-format
+msgid "User cannot %s."
+msgstr ""
+
+#: .\zinnia\xmlrpc\pingback.py:108
+msgid "No title"
+msgstr ""

@@ -1,0 +1,51 @@
+{% extends "header.html" %}
+{% load i18n %}
+
+{% block neo_title %}{% trans "app list" %}{% endblock %}
+
+{% block neo_content %}
+
+<div class="table-responsive">
+  <table class="table table-hover table-bordered">
+<tr>
+  <td class="success">name</td>
+  <td class="success">android version</td>
+  <td class="success">version</td>
+  <td class="success">description</td>
+  <td class="success"></td>
+</tr>
+{% for apk in apklist %}
+
+<tr>
+  <td class="active">
+    <a href={%url 'downloadapk' name=apk.name  version=apk.version%}>
+        {{apk.name}}
+    </a>    
+    </td>
+  <td class="active">{{apk.vandroid}}</td>
+  <td class="active">{{apk.version}}</td>
+  <td class="active">
+    <a class="btn btn-primary" role="button" data-toggle="collapse" 
+        href="#collapse{{ forloop.counter0 }}" aria-expanded="false" 
+        aria-controls="collapse{{ forloop.counter0 }}">
+          Readme
+    </a>
+  </td> 
+  <td class="active">
+    <a href={%url 'downloadapk' name=apk.name  version=apk.version%}>
+        download
+    </a>    
+   </td>
+<div class="collapse" id="collapse{{ forloop.counter0 }}">
+          <div class="well">
+            {{apk.description}}
+          </div>
+ </div> 
+</tr>
+
+{% endfor %}
+
+  </table>
+</div>
+
+{% endblock %}

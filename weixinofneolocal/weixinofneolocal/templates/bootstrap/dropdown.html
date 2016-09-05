@@ -1,0 +1,129 @@
+{% extends "root.html" %}
+
+{% block neo_title %}dropdown{% endblock %}
+
+{% block neo_content %}
+<div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+    Dropdown
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
+    <li role="presentation" class="dropdown-header">Dropdown header</li>
+    <li role="presentation" class="divider"> divider</li>
+    <li role="presentation" class="disabled"><a role="menuitem" tabindex="-1" href="#">Disabled link</a></li>
+
+  </ul>
+</div>
+<br/>
+<div class="bs-example">
+          <div class="btn-group">
+            <button type="button" class="btn btn-default">1</button>
+            <button type="button" class="btn btn-default">2</button>
+            <div class="btn-group">
+              <button id="btnGroupDrop1" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"> Dropdown <span class="caret"></span> </button>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="btnGroupDrop1">
+                <li><a href="#">Dropdown link</a></li>
+                <li><a href="#">Dropdown link</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+<br/>
+<div class="btn-toolbar" role="toolbar">
+  <div class="btn-group btn-group-lg">
+    <button type="button" class="btn btn-default">Left</button>
+  <button type="button" class="btn btn-default">Middle</button>
+  <button type="button" class="btn btn-default">Right</button>
+    </div>
+  <div class="btn-group btn-group-sm" data-toggle="buttons">
+     <label class="btn btn-primary">
+    <input type="checkbox"> Option 1
+  </label>
+  <label class="btn btn-primary">
+    <input type="checkbox"> Option 2
+  </label>
+  <label class="btn btn-primary">
+    <input type="checkbox"> Option 3
+  </label>
+    </div>
+  <div class="btn-group btn-group-xm" data-toggle="buttons">
+    <label class="btn btn-primary">
+    <input type="radio" name="options" id="option1"> Option 1
+  </label>
+  <label class="btn btn-primary">
+    <input type="radio" name="options" id="option2"> Option 2
+  </label>
+  <label class="btn btn-primary">
+    <input type="radio" name="options" id="option3"> Option 3
+  </label>
+    </div>
+</div>
+<br/>
+<div class="bs-example">
+          <div class="btn-group-vertical">
+            <button type="button" class="btn btn-default">Button</button>
+            <button type="button" class="btn btn-default">Button</button>
+            <div class="btn-group">
+              <button id="btnGroupVerticalDrop1" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"> Dropdown <span class="caret"></span> </button>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="btnGroupVerticalDrop1">
+                <li><a href="#">Dropdown link</a></li>
+                <li><a href="#">Dropdown link</a></li>
+              </ul>
+            </div>
+            <button type="button" class="btn btn-default">Button</button>
+            <button type="button" class="btn btn-default">Button</button>
+            <div class="btn-group">
+              <button id="btnGroupVerticalDrop2" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"> Dropdown <span class="caret"></span> </button>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="btnGroupVerticalDrop2">
+                <li><a href="#">Dropdown link</a></li>
+                <li><a href="#">Dropdown link</a></li>
+              </ul>
+            </div>
+            <div class="btn-group">
+              <button id="btnGroupVerticalDrop3" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"> Dropdown <span class="caret"></span> </button>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="btnGroupVerticalDrop3">
+                <li><a href="#">Dropdown link</a></li>
+                <li><a href="#">Dropdown link</a></li>
+              </ul>
+            </div>
+            <div class="btn-group">
+              <button id="btnGroupVerticalDrop4" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"> Dropdown <span class="caret"></span> </button>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="btnGroupVerticalDrop4">
+                <li><a href="#">Dropdown link</a></li>
+                <li><a href="#">Dropdown link</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+<br>
+<div class="btn-group dropup">
+  <button type="button" class="btn btn-danger">Action</button>
+  <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
+    <span class="caret"></span>
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <ul class="dropdown-menu" role="menu">
+    <li><a href="#">Action</a></li>
+    <li><a href="#">Another action</a></li>
+    <li><a href="#">Something else here</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Separated link</a></li>
+  </ul>
+   <button type="button" class="btn btn-default">Dropup</button>
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+    <span class="caret"></span>
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <ul class="dropdown-menu">
+    <!-- Dropdown menu links -->
+  </ul>
+</div>
+
+{% endblock %}

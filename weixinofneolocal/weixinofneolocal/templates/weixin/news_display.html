@@ -1,0 +1,28 @@
+{% extends "root.html" %}
+
+{% block neo_title %}news{% endblock %}
+
+{% block neo_content %}
+<div class="container-fluid">
+
+  <div class="row">
+  <div class="col-xs-12 col-sm-6 col-md-3">
+    <p class="text-center lead">{{ title }}</p>
+  </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-3">
+      <img class="img-circle img-responsive" src="{{ picurl }}"/> 
+    </div> 
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-3">
+     <p> {{ content }} </p>
+    </div>
+  </div>
+
+</div>
+
+{% endblock %}

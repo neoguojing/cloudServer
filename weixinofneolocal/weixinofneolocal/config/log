@@ -1,0 +1,64 @@
+   '''
+    'version': 1,
+    'disable_existing_loggers': True,
+    'formatters':{
+        'standard': {
+            'format': '%(levelname)s %(lineno)d %(asctime)s %(message)s'
+            },
+    },
+    'filters': {
+    },
+    'handlers': {
+        'mail_admins': {
+            'level': 'ERROR',
+            'filters': ['require_debug_false'],
+            'class': 'django.utils.log.AdminEmailHandler'
+        },
+        'default': {
+            'level': 'DEBUG',
+            'class': 'logging.handlers.RotatingFileHandler',
+            'filename':os.path.join(LOG_PATH, 'all.log'),
+            'maxBytes':1024*1024*10,
+            'backupCount':5,
+            'formatter':'standard',
+            
+        },
+        'console': {
+            'level': 'DEBUG',
+            'class': 'logging.StreamHandler',
+            'formatter':'standard',
+            
+        },
+        'request_handler': {
+            'level': 'DEBUG',
+            'class': 'logging.handlers.RotatingFileHandler',
+            'filename':os.path.join(LOG_PATH, 'http.log'),
+            'maxBytes':1024*1024*10,
+            'backupCount':5,
+            'formatter':'standard',
+            
+        },
+       
+    },
+    'loggers': {
+        'django.request': {
+            'handlers': ['request_handler'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+        'django': {
+            'handlers': ['default','console'],
+            'level': 'DEBUG',
+            'propagate': False,
+        },
+        'interface': {
+            'handlers': ['default','console'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+        'app': {
+            'handlers': ['default','console'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+    }'''
