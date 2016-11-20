@@ -1,0 +1,10 @@
+{
+
+    "username":"",
+    "passqord":"",
+    "residaddr":"",
+    "port":6379,
+    "main":"",
+	"rules":[]
+	
+}
