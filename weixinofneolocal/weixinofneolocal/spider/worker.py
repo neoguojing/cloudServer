@@ -1,4 +1,8 @@
 # coding=utf-8
+import sys
+import os
+sys.path.append(os.path.join(os.path.dirname(__file__), '../').replace('\\', '/'))
+
 from utils.neoconfig import NeoConfig
 import os
 import redis
@@ -8,7 +12,7 @@ listen = ['high', 'default', 'low']
 
 tools = NeoConfig()
 temp = tools.loadFronJsonFile("./config.json")
-redis_url = 'redis://%s:%d' % (temp[redisaddr], temp["port"])
+redis_url = 'redis://%s:%d' % (temp["redisaddr"], temp["port"])
  
 conn = redis.from_url(redis_url)
  

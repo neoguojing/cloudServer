@@ -2,7 +2,7 @@
 
     "username":"",
     "passqord":"",
-    "residaddr":"10.105.101.58",
+    "redisaddr":"10.105.101.58",
     "port":6379,
     "main":"",
 	"rules":[]
