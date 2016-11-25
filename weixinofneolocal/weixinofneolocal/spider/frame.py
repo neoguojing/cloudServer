@@ -3,7 +3,10 @@ import sys
 import os
 sys.path.append(os.path.join(os.path.dirname(__file__), '../').replace('\\', '/'))
 
-from utils.neoconfig import NeoConfig
+from user_agent import user_agent_list
+from utils.generator_util import random_int
+from config import *
+
 import requests
 from redis import Redis
 from rq import Queue
@@ -11,57 +14,63 @@ import subprocess
 import sys
 import getopt
 import signal
+from bs4 import BeautifulSoup as bs
 
-
-class SpiderConfig:
-
-    def __init__(self,user,pwd,redis_ip,port,main,*rules):
-        self.user = user
-        self.password = pwd
-        self.redisaddr = redis_ip
-        self.port = port
-        self.main = main
-        self.rules = rules
-
-
-config = None
-session = None
-worker = None
-
-def LoadConfig():
-    tools = NeoConfig()
-    temp = tools.loadFronJsonFile("./config.json")
-    config = SpiderConfig(temp["username"],temp["password"],temp["redisaddr"],temp["port"],temp["main"],temp["rules"])
 
 
 def LogIn():
-    if config == None:
-        return
-    headers = {'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-            'Accept-Encoding': 'gzip, deflate, compress',
+    
+    headers = {'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+            'Accept-Encoding': 'gzip, deflate, sdch',
             'Accept-Language': 'en-us;q=0.5,en;q=0.3',
             'Cache-Control': 'max-age=0',
             'Connection': 'keep-alive',
-            'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6',
-            'Referer':config.main
+            'User-Agent': '%s' % user_agent_list[random_int(len(user_agent_list)-1)],
+            'Referer': '%s' % (MySiteRules["main"])
                }
-
+    
     session = requests.Session()
     session.headers.update(headers)
 
-    resp = session.get(config.main)
-    resp = session.post(resp.url, params={'ac':'account', 'op':'login'},
-           data={'username':config.user, 'userpwd':config.password})
+    resp = session.get(MySiteRules["main"])
+    print resp.url,resp.status_code
+    
+    soup = bs(resp.text,'lxml')
+    MysiteLoginDict["csrfmiddlewaretoken"] = soup.find("input",attrs={"name":"csrfmiddlewaretoken"}).attrs["value"]
+    print MysiteLoginDict["csrfmiddlewaretoken"]
+    
+    #resp = session.post(resp.url, params={'ac':'account', 'op':'login'},
+    #      data={'username':config["user"], 'userpwd':config["password"]})
+    
+    resp = session.post(resp.url, data=MysiteLoginDict)
+    print resp.url,resp.status_code 
+    print resp.text
+    
+    if MySiteRules["start_url"]!="":
+        resp = session.get(MySiteRules["start_url"])
+    
+    return resp.url, session
 
-    return resp.url
+def WorkerTaskCallback(html):
+    #what data do I need
+    
+    
 
-def taskCallback(url):
-    resp = session.get(url,params={'ac':'common', 'op':'usersign'})
+def ProducerLoop(queue,url,session):
+    
+    next_url = url
+    while True:
+        #end condition
+        if False:
+            break
+        
+        pageContent = session.get(next_url)
+        
+        queue.enqueue(WorkerTaskCallback,pageContent.text)
+        
+        soup = bs(pageContent.text,'lxml')
+        next_url = soup.find(MySiteRules["rules"])
 
-
-def InitRQ(url):
-     redisQueue = Queue(connection=Redis(host=config.redisaddr, port=config.port, db=1))
-     redisQueue.enqueue(taskCallback,url)
 
 class Usage(Exception):
     def __init__(self,msg):
@@ -86,9 +95,20 @@ def main(argv=None):
 
             worker = subprocess.Popen("rq worker",shell=True)
             worker.wait()
+            
+            start_url = ""
+            session = None
+            if GlobleSettings["login"]:
+                start_url,LogIn()
+            
+            redisQueue = Queue(connection=Redis(host=RedisSetings["redisaddr"], port=RedisSetings["port"], db=1))
+            
+            ProducerLoop(redisQueue,)
 
             while True:
                 worker.poll()
+                
+                
 
         except getopt.error,msg:
             raise Usage(msg)
