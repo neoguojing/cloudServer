@@ -19,7 +19,7 @@ MySiteRules = {
 
 
 RedisSetings = {
-    "redisaddr":"10.105.101.58",
+    "redisaddr":"115.159.84.57",
     "port":6379
 }
 
