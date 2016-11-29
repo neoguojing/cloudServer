@@ -1,0 +1,4 @@
+
+scrapy startproject tutorial //create projects
+scrapy crawl dmoz //start a spider
+scrapy crawl dmoz -o items.json //out put data 
