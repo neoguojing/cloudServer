@@ -16,20 +16,9 @@ import sys
 import getopt
 import signal
 from bs4 import BeautifulSoup as bs
-from pybloom import BloomFilter
+
 import logging
 import time
-
-def md5(str):
-    import hashlib
-    import types
-    
-    if types(str) is types.StringType:
-        m = hashlib.md5()
-        m.update(str)
-        return m.hexdigest
-    else:
-        return ""
 
 def LogIn():
     headers = {'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
@@ -88,21 +77,6 @@ def ProducerLoop(queue,url,session):
             break
     logging.error("ProducerLoop ends")
     
-
-class NeoBloomFilter:
-    def __init__(self):
-        self.bf = BloomFilter(capacity=10000, error_rate=0.0001)
-        
-    def isUrlExist(self, url):
-        digest = md5(url)
-        if digest == "":
-            logging.error("md5() input is empty ")
-            return True
-        if digest in self.bf:
-            return True
-        else:
-            self.bf.add(digest)
-            return False
 
 
 class Usage(Exception):

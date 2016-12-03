@@ -17,6 +17,20 @@ MySiteRules = {
     "end":""
 }
 
+LoginDict = {
+    "csrfmiddlewaretoken":"",
+    "this_is_the_login_form":"1",
+    "next":"/admin/",
+    "username":"nana",
+    "password":"123456"
+}
+
+SpiderRules = {
+    "main":"http://115.159.84.57/admin/login/?next=/admin/",
+    "start_url":"",
+    "rules":[],
+    "end":""
+}
 
 RedisSetings = {
     "redisaddr":"115.159.84.57",
